@@ -399,10 +399,6 @@ export function ChatInterface() {
               </div>
             </div>
           </div>
-
-          <p className="text-xs text-gray-600 text-center mt-2">
-            HealthBot can make mistakes. Consult a doctor for serious conditions.
-          </p>
         </div>
       </div>
 
@@ -411,7 +407,6 @@ export function ChatInterface() {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-between mb-4">
             <h3 className="text-lg font-semibold text-white">Health Resources</h3>
-            <div className="text-xs text-gray-500">Auto-sliding • Hover to pause</div>
           </div>
           
           <div 
@@ -474,6 +469,11 @@ export function ChatInterface() {
               />
             ))}
           </div>
+          
+          {/* Disclaimer moved here */}
+          <p className="text-xs text-gray-600 text-center mt-6">
+            HealthBot can make mistakes. Consult a doctor for serious conditions.
+          </p>
         </div>
       </div>
     </div>
