@@ -339,75 +339,6 @@ export function ChatInterface() {
             </motion.div>
           )}
           <div ref={messagesEndRef} />
-          
-          {/* Health Content Carousel - Right after chat messages */}
-          <div className="mt-8">
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="text-lg font-semibold text-white">Health Resources</h3>
-              <div className="text-xs text-gray-500">Hover to pause • Auto-sliding</div>
-            </div>
-            
-            <div 
-              className="relative overflow-hidden"
-              onMouseEnter={() => setIsCarouselHovered(true)}
-              onMouseLeave={() => setIsCarouselHovered(false)}
-            >
-              <div 
-                className="flex transition-transform duration-500 ease-in-out gap-4"
-                style={{ transform: `translateX(-${currentSlide * 33.333}%)` }}
-              >
-                {carouselItems.map((item) => (
-                  <div key={item.id} className="flex-none w-1/3 min-w-0">
-                    <div className="group bg-black/40 backdrop-blur-sm border border-white/10 hover:border-blue-500/40 rounded-xl overflow-hidden transition-all duration-300 cursor-pointer hover:scale-[1.02] hover:shadow-xl hover:shadow-blue-500/10">
-                      <div className="relative">
-                        <img 
-                          src={item.thumbnail} 
-                          alt={item.title}
-                          className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
-                        />
-                        <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
-                          {item.type === "video" ? (
-                            <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
-                              <Play className="size-4 text-white" />
-                            </div>
-                          ) : (
-                            <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
-                              <BookOpen className="size-4 text-white" />
-                            </div>
-                          )}
-                        </div>
-                        <div className="absolute top-2 left-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white font-medium capitalize">
-                          {item.type}
-                        </div>
-                        <div className="absolute bottom-2 right-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white">
-                          {item.type === "video" ? item.duration : item.readTime}
-                        </div>
-                      </div>
-                      <div className="p-4">
-                        <h4 className="font-semibold text-white mb-1 text-sm line-clamp-1">{item.title}</h4>
-                        <p className="text-xs text-gray-400 line-clamp-2">{item.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
-            {/* Dots indicator */}
-            <div className="flex justify-center mt-4 gap-2">
-              {Array.from({ length: Math.max(1, carouselItems.length - 2) }).map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentSlide(index)}
-                  className={`w-2 h-2 rounded-full transition-all ${
-                    currentSlide === index 
-                      ? "bg-blue-500 w-6" 
-                      : "bg-white/30 hover:bg-white/50"
-                  }`}
-                />
-              ))}
-            </div>
-          </div>
         </div>
       </div>
 
@@ -472,6 +403,77 @@ export function ChatInterface() {
           <p className="text-xs text-gray-600 text-center mt-2">
             HealthBot can make mistakes. Consult a doctor for serious conditions.
           </p>
+        </div>
+      </div>
+
+      {/* Health Content Carousel - Below Input Box */}
+      <div className="border-t border-white/10 bg-black/20 backdrop-blur-md px-4 py-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-semibold text-white">Health Resources</h3>
+            <div className="text-xs text-gray-500">Auto-sliding • Hover to pause</div>
+          </div>
+          
+          <div 
+            className="relative overflow-hidden"
+            onMouseEnter={() => setIsCarouselHovered(true)}
+            onMouseLeave={() => setIsCarouselHovered(false)}
+          >
+            <div 
+              className="flex transition-transform duration-500 ease-in-out gap-4"
+              style={{ transform: `translateX(-${currentSlide * 33.333}%)` }}
+            >
+              {carouselItems.map((item) => (
+                <div key={item.id} className="flex-none w-1/3 min-w-0">
+                  <div className="group bg-black/40 backdrop-blur-sm border border-white/10 hover:border-blue-500/40 rounded-xl overflow-hidden transition-all duration-300 cursor-pointer hover:scale-[1.02] hover:shadow-xl hover:shadow-blue-500/10">
+                    <div className="relative">
+                      <img 
+                        src={item.thumbnail} 
+                        alt={item.title}
+                        className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                        {item.type === "video" ? (
+                          <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
+                            <Play className="size-4 text-white" />
+                          </div>
+                        ) : (
+                          <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
+                            <BookOpen className="size-4 text-white" />
+                          </div>
+                        )}
+                      </div>
+                      <div className="absolute top-2 left-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white font-medium capitalize">
+                        {item.type}
+                      </div>
+                      <div className="absolute bottom-2 right-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white">
+                        {item.type === "video" ? item.duration : item.readTime}
+                      </div>
+                    </div>
+                    <div className="p-4">
+                      <h4 className="font-semibold text-white mb-1 text-sm line-clamp-1">{item.title}</h4>
+                      <p className="text-xs text-gray-400 line-clamp-2">{item.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          {/* Dots indicator */}
+          <div className="flex justify-center mt-4 gap-2">
+            {Array.from({ length: Math.max(1, carouselItems.length - 2) }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentSlide(index)}
+                className={`w-2 h-2 rounded-full transition-all ${
+                  currentSlide === index 
+                    ? "bg-blue-500 w-6" 
+                    : "bg-white/30 hover:bg-white/50"
+                }`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
