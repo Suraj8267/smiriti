@@ -1,0 +1,1295 @@
+DISEASE: Dengue
+SYMPTOMS: Tez bukhar, sir dard, body pain, aankhon ke peeche dard, red spots, ulti
+CAUSES: Aedes mosquito ka katna, gande paani mein mosquito breeding
+HOME_REMEDY: Papaya leaf juice, coconut water, giloy juice, rest karo, zyada paani piyo
+MEDICINE: Paracetamol (fever ke liye), aspirin bilkul mat lo, doctor se consult karo
+WARNING: Platelets check karao, bleeding ho toh turant hospital jao
+ESCALATE: YES agar 3 din se zyada bukhar ho ya bleeding ho
+
+DISEASE: Malaria
+SYMPTOMS: Kaanpna, tez bukhar, paseena aana, sir dard, ulti, thakaan
+CAUSES: Anopheles mosquito ka katna, gande paani ke aas paas rehna
+HOME_REMEDY: Giloy juice, neem patti ka kadha, tulsi aur kali mirch ka kadha, rest
+MEDICINE: Chloroquine ya Artemisinin (doctor ki salah se), Paracetamol bukhar ke liye
+WARNING: Baar baar bukhar aana aur kaanpna malaria ka sign hai
+ESCALATE: YES agar 2 din mein aaram na aaye
+
+DISEASE: Typhoid
+SYMPTOMS: Lambe samay ka bukhar, pet dard, kamzori, sir dard, constipation ya diarrhea
+CAUSES: Contaminated paani ya khaana, Salmonella bacteria
+HOME_REMEDY: ORS solution, coconut water, khichdi, halka khaana, rest
+MEDICINE: Azithromycin ya Ciprofloxacin (doctor se le), Paracetamol
+WARNING: 1 hafte se zyada bukhar ho toh blood test karao
+ESCALATE: YES agar bukhar 104F se upar jaye
+
+DISEASE: Chikungunya
+SYMPTOMS: Tez bukhar, joints mein dard, rash, sir dard, muscles mein dard
+CAUSES: Aedes mosquito, monsoon mein zyada hota hai
+HOME_REMEDY: Papaya leaf juice, coconut water, haldi wala doodh, rest
+MEDICINE: Paracetamol, Ibuprofen joints dard ke liye, aspirin mat lo
+WARNING: Joint pain kaafi time tak reh sakta hai
+ESCALATE: YES agar joint mein swelling bahut zyada ho
+
+DISEASE: COVID-19
+SYMPTOMS: Bukhar, khansi, saans lene mein takleef, smell/taste na aana, thakaan, body pain
+CAUSES: SARS-CoV-2 virus, infected person se contact
+HOME_REMEDY: Steam lena, haldi doodh, adrak chai, gargle with warm salt water, rest
+MEDICINE: Paracetamol, Vitamin C, Zinc supplements, doctor se consult
+WARNING: Oxygen level 94 se neeche aaye toh emergency
+ESCALATE: YES agar saans lene mein bahut takleef ho
+
+DISEASE: Tuberculosis (TB)
+SYMPTOMS: 2 hafte se zyada khansi, khansi mein khoon, raat ko paseena, wajan kam hona, bukhar
+CAUSES: Mycobacterium tuberculosis bacteria, hawa se failta hai
+HOME_REMEDY: Tulsi, mulethi, haldi, achha khaana khao, fresh air
+MEDICINE: DOTS therapy (government free deti hai), doctor se zaroor milo
+WARNING: TB bilkul curable hai lekin poora course lena hoga
+ESCALATE: YES tuberculosis ka suspicion hone pe turant doctor ke paas jao
+
+DISEASE: Pneumonia
+SYMPTOMS: Tez bukhar, khansi, saans mein takleef, seene mein dard, thakaan
+CAUSES: Bacteria ya virus, immune system kamzor hona
+HOME_REMEDY: Steam, warm fluids, rest, haldi wala doodh, adrak
+MEDICINE: Antibiotics (doctor se), Paracetamol, cough syrup
+WARNING: Bache aur buzurg zyada risk mein hain
+ESCALATE: YES agar saans bahut tez ho ya lips blue ho jaayein
+
+DISEASE: Jaundice
+SYMPTOMS: Aankhein aur skin peeli hona, dark urine, pale stool, thakaan, pet mein dard
+CAUSES: Liver ki bimari, Hepatitis virus, gallstones
+HOME_REMEDY: Ganne ka ras, nimbu paani, coconut water, halka khaana, tel bilkul nahi
+MEDICINE: Doctor ki salah zaruri hai, Liv 52 liver ke liye
+WARNING: Tel wala khaana bilkul band karo
+ESCALATE: YES jaundice mein turant doctor ke paas jao
+
+DISEASE: Hepatitis A
+SYMPTOMS: Bukhar, ulti, pet dard, peeli skin, thakaan, bhookh na lagna
+CAUSES: Contaminated paani ya khaana, infected person se
+HOME_REMEDY: Rest, coconut water, ganne ka ras, halka khaana, zyada paani
+MEDICINE: Doctor ki salah zaruri, supportive care
+WARNING: 4-6 hafte mein theek hota hai lekin rest zaruri hai
+ESCALATE: YES agar bahut kamzori ho ya skin zyada peeli ho
+
+DISEASE: Hepatitis B
+SYMPTOMS: Thakaan, peeli skin, pet dard, joint dard, dark urine
+CAUSES: Infected blood ya body fluids se, needle sharing
+HOME_REMEDY: Rest, halka khaana, alcohol bilkul nahi, zyada paani
+MEDICINE: Antiviral medicines (doctor se), proper treatment zaruri
+WARNING: Chronic ho sakta hai, liver damage ka risk
+ESCALATE: YES turant doctor ke paas jao
+
+DISEASE: Cholera
+SYMPTOMS: Bahut zyada pani wala dast, ulti, dehydration, muscle cramps
+CAUSES: Vibrio cholerae bacteria, contaminated paani
+HOME_REMEDY: ORS solution baar baar do, coconut water, nimbu paani with salt
+MEDICINE: ORS, Doxycycline (doctor se), zinc supplements
+WARNING: Dehydration bahut jaldi hoti hai, khaskar bacchon mein
+ESCALATE: YES cholera mein turant hospital jao
+
+DISEASE: Dysentery
+SYMPTOMS: Khoon wala dast, pet mein dard, bukhar, ulti, thakaan
+CAUSES: Bacteria ya amoeba, ganda paani ya khaana
+HOME_REMEDY: ORS, chawal ka paani, curd, banana, rest
+MEDICINE: Metronidazole (doctor se), ORS solution
+WARNING: Bacchon mein bahut khatarnak ho sakta hai
+ESCALATE: YES agar khoon zyada ho ya 2 din mein aaram na aaye
+
+DISEASE: Food Poisoning
+SYMPTOMS: Ulti, dast, pet dard, bukhar, kamzori, dehydration
+CAUSES: Banda hua ya contaminated khaana khana
+HOME_REMEDY: ORS, rest, nimbu paani, chawal ka paani, kuch na khao pehle
+MEDICINE: ORS, Domperidone ulti ke liye, doctor se consult
+WARNING: Dehydration se bachao, zyada paani piyo
+ESCALATE: YES agar 24 ghante mein aaram na aaye ya blood aaye
+
+DISEASE: Appendicitis
+SYMPTOMS: Pet ke neeche daayein taraf tez dard, bukhar, ulti, chalna mushkil
+CAUSES: Appendix mein infection
+HOME_REMEDY: KUCH NAHI — seedha hospital jao, yeh emergency hai
+MEDICINE: Surgery zaroori ho sakti hai
+WARNING: Yeh life threatening ho sakta hai
+ESCALATE: YES TURANT EMERGENCY HOSPITAL JAO
+
+DISEASE: Kidney Stones
+SYMPTOMS: Kamar aur side mein tez dard, peshab mein khoon, ulti, peshab karne mein takleef
+CAUSES: Kam paani peena, zyada namak, calcium deposits
+HOME_REMEDY: Bahut zyada paani piyo, nimbu paani, barley water, coconut water
+MEDICINE: Painkillers (doctor se), alpha blockers
+WARNING: Zyada paani peena sabse bada ilaj hai
+ESCALATE: YES agar dard bahut tez ho ya peshab band ho jaye
+
+DISEASE: UTI (Urinary Tract Infection)
+SYMPTOMS: Peshab mein jalan, baar baar peshab aana, peshab mein khoon, pet ke neeche dard
+CAUSES: Bacteria, kam paani peena, cleanliness na rakhna
+HOME_REMEDY: Bahut zyada paani piyo, cranberry juice, nimbu paani, dhaniya paani
+MEDICINE: Nitrofurantoin ya Trimethoprim (doctor se), Pyridium pain ke liye
+WARNING: Mahilaon mein zyada hota hai
+ESCALATE: YES agar bukhar bhi ho toh kidney infection ho sakta hai
+
+DISEASE: Asthma
+SYMPTOMS: Saans lene mein takleef, seene mein tightness, khansi, wheeze ki awaaz
+CAUSES: Allergy, pollution, dhool, thand, exercise
+HOME_REMEDY: Steam, haldi wala doodh, adrak chai, inhaler hamesha saath rakho
+MEDICINE: Salbutamol inhaler (rescue), Budesonide (preventive), doctor se
+WARNING: Attack mein inhaler use karo, zyada na ho toh hospital
+ESCALATE: YES agar inhaler se aaram na aaye
+
+DISEASE: Hypertension (High BP)
+SYMPTOMS: Sir dard, chakkar, aankhon mein dhundla, naak se khoon, thakaan
+CAUSES: Zyada namak, stress, motapa, exercise na karna, smoking
+HOME_REMEDY: Namak kam karo, lahsun, methi, arjuna ki chhal ka kadha, exercise
+MEDICINE: Amlodipine ya Losartan (doctor se), niyamit lena zaroori
+WARNING: Silent killer hai, BP regularly check karo
+ESCALATE: YES agar BP 180/120 se upar jaye
+
+DISEASE: Diabetes Type 2
+SYMPTOMS: Baar baar peshab, zyada pyaas, thakaan, aankhon mein dhundla, ghav na bharna
+CAUSES: Insulin resistance, motapa, genetics, inactive lifestyle
+HOME_REMEDY: Karela juice, methi seeds, jamun, bitter gourd, regular exercise
+MEDICINE: Metformin (doctor se), sugar control karo
+WARNING: Sugar niyamit check karo, khaan-paan dhyan rakho
+ESCALATE: YES agar sugar 400 se upar ho ya unconscious ho
+
+DISEASE: Anemia
+SYMPTOMS: Thakaan, kamzori, pale skin, saans fulna, chakkar, sir dard
+CAUSES: Iron deficiency, vitamin B12 deficiency, khoon ki kami
+HOME_REMEDY: Palak, chukander, anar, dates, kala til, hara dhaniya, iron rich food
+MEDICINE: Iron supplements (Ferrous sulfate), Vitamin B12 (doctor se)
+WARNING: Pregnant women mein bahut zaroori hai
+ESCALATE: YES agar bahut zyada kamzori ho ya heartbeat irregular ho
+
+DISEASE: Thyroid (Hypothyroidism)
+SYMPTOMS: Wajan badhna, thakaan, thand lagana, depression, baal jhadna, constipation
+CAUSES: Immune system attack, iodine deficiency, genetics
+HOME_REMEDY: Iodized salt use karo, coconut oil, selenium rich foods
+MEDICINE: Levothyroxine (doctor se), niyamit leni padegi
+WARNING: Blood test se hi pata chalega
+ESCALATE: YES agar bahut zyada symptoms hon
+
+DISEASE: Migraine
+SYMPTOMS: Ek taraf tez sir dard, ulti, roshni se takleef, awaaz se takleef, aura
+CAUSES: Stress, neend ki kami, hormonal changes, kuch foods
+HOME_REMEDY: Andheri kamre mein rest, cold/warm compress, peppermint oil, ginger tea
+MEDICINE: Sumatriptan ya Ibuprofen (doctor se), Paracetamol
+WARNING: Regular migraine mein preventive medicine lo
+ESCALATE: YES agar pehli baar bahut tez dard ho ya weakness aaye
+
+DISEASE: Arthritis
+SYMPTOMS: Joints mein dard, sujan, akadhat subah, chalchalan mushkil
+CAUSES: Age, immune system attack, injury, obesity
+HOME_REMEDY: Haldi doodh, fish oil, ginger, warm compress, light exercise
+MEDICINE: Ibuprofen, Diclofenac (doctor se), physiotherapy
+WARNING: Wajan kam karo joints pe pressure kam hoga
+ESCALATE: YES agar joint bilkul kaam na kare
+
+DISEASE: Scabies
+SYMPTOMS: Raat ko zyada khujli, skin pe lines ya blisters, red rash, fingers ke beech khujli
+CAUSES: Sarcoptes scabiei mite, infected person se contact
+HOME_REMEDY: Neem oil, tea tree oil lagao, kapde garam paani mein dhoo
+MEDICINE: Permethrin cream (doctor se), poore ghar ko treat karo
+WARNING: Poore ghar ke logon ko saath mein treat karna hoga
+ESCALATE: YES agar infection phail jaye ya fever aaye
+
+DISEASE: Ringworm
+SYMPTOMS: Round red itchy patch, skin peeling, baal jhadna (agar sir pe ho)
+CAUSES: Fungal infection, infected person ya animal se contact
+HOME_REMEDY: Tea tree oil, coconut oil, aloe vera, area dry rakho
+MEDICINE: Clotrimazole cream, Fluconazole tablet (doctor se)
+WARNING: Damp jagah mein zyada hota hai, skin dry rakho
+ESCALATE: YES agar bahut phail jaye ya face pe ho
+
+DISEASE: Chickenpox
+SYMPTOMS: Itchy blisters, bukhar, thakaan, red spots jo blisters ban jaate hain
+CAUSES: Varicella zoster virus, infected person se
+HOME_REMEDY: Neem patti se nahao, calamine lotion, khujli mat karo, rest
+MEDICINE: Paracetamol (aspirin nahi), Antihistamine khujli ke liye
+WARNING: Blisters pe haath mat lagao, scar pad jaayenge
+ESCALATE: YES agar bahut tez bukhar ho ya blisters infected hon
+
+DISEASE: Measles
+SYMPTOMS: Tez bukhar, khansi, red rash poore body pe, aankhein laal, runny nose
+CAUSES: Measles virus, hawa se failta hai
+HOME_REMEDY: Rest, zyada paani, Vitamin A rich foods, dim light mein rakho
+MEDICINE: Paracetamol, Vitamin A supplements, doctor se consult
+WARNING: Vaccine se bachao ho sakta hai
+ESCALATE: YES agar saans mein takleef ho ya bahut tez bukhar ho
+
+DISEASE: Mumps
+SYMPTOMS: Gaal ki sujan, bukhar, sir dard, chhabne mein dard, khaane mein takleef
+CAUSES: Mumps virus, hawa se failta hai
+HOME_REMEDY: Cold/warm compress, soft khaana, rest, zyada paani
+MEDICINE: Paracetamol, MMR vaccine se bachao
+WARNING: Boys mein testicular swelling ka risk
+ESCALATE: YES agar severe symptoms hon
+
+DISEASE: Diphtheria
+SYMPTOMS: Gale mein grey membrane, tez bukhar, gale mein dard, saans lene mein takleef
+CAUSES: Corynebacterium bacteria, hawa se failta hai
+HOME_REMEDY: KUCH NAHI — yeh emergency hai, seedha hospital
+MEDICINE: Antitoxin aur antibiotics (hospital mein)
+WARNING: Life threatening infection hai
+ESCALATE: YES TURANT HOSPITAL JAO
+
+DISEASE: Pertussis (Whooping Cough)
+SYMPTOMS: Intense coughing fits, khansi ke baad whooping sound, ulti, thakaan
+CAUSES: Bordetella pertussis bacteria, hawa se failta hai
+HOME_REMEDY: Honey aur ginger, steam, rest, zyada fluids
+MEDICINE: Azithromycin (doctor se), vaccine se bachao
+WARNING: Chhote bacchon mein bahut khatarnak
+ESCALATE: YES agar saans lene mein takleef ho
+
+DISEASE: Tetanus
+SYMPTOMS: Jaw akadna (lockjaw), muscles stiff hona, bukhar, body mein spasms
+CAUSES: Clostridium tetani bacteria, ghav se
+HOME_REMEDY: EMERGENCY HAI — seedha hospital jao
+MEDICINE: Tetanus injection (hospital mein), antibiotics
+WARNING: Koi bhi ghav ho toh tetanus injection lo
+ESCALATE: YES TURANT HOSPITAL JAO
+
+DISEASE: Rabies
+SYMPTOMS: Ghav ke baad bukhar, sir dard, confusion, hydrophobia, paralysis
+CAUSES: Infected jaanwar ka kaatna (kutta, billi, bandar)
+HOME_REMEDY: EMERGENCY — turant hospital jao, ghav achhe se dhoo
+MEDICINE: Rabies vaccine ka poora course, immunoglobulin
+WARNING: Symptoms aane ke baad almost always fatal
+ESCALATE: YES KISI JAANWAR KE KAATNE PE TURANT HOSPITAL JAO
+
+DISEASE: Snake Bite
+SYMPTOMS: Kaatne ki jagah par dard, sujan, skin ka rang badalna, chakkar, ulti
+CAUSES: Zahrile saanp ka kaatna
+HOME_REMEDY: Shaant raho, hilao mat, kaatne ki jagah heart se neeche rakho, turant hospital
+MEDICINE: Antivenom (hospital mein milta hai)
+WARNING: Tourniquet mat banao, kaatna mat, seedha hospital
+ESCALATE: YES TURANT EMERGENCY
+
+DISEASE: Heat Stroke
+SYMPTOMS: Body temperature 40C se upar, confusion, hot dry skin, chakkar, behoshi
+CAUSES: Tez dhoop mein rehna, paani na peena, zyada exercise
+HOME_REMEDY: Thandi jagah le jao, thanda paani pilaao, body pe thanda paani lagao
+MEDICINE: EMERGENCY — turant hospital
+WARNING: Jaldi action lo, brain damage ho sakta hai
+ESCALATE: YES TURANT EMERGENCY
+
+DISEASE: Dehydration
+SYMPTOMS: Mouth dry, dark urine, thakaan, chakkar, sir dard, aankhein andar dhans jaana
+CAUSES: Paani na peena, diarrhea, ulti, zyada paseena
+HOME_REMEDY: ORS solution, coconut water, nimbu paani, chawal ka paani, zyada paani
+MEDICINE: ORS packets (har medical store pe milte hain)
+WARNING: Bacchon mein bahut jaldi dehydration hoti hai
+ESCALATE: YES agar 6 ghante se peshab na aaye ya behoshi ho
+
+DISEASE: Malnutrition
+SYMPTOMS: Wajan bahut kam, thakaan, baal patale, skin dry, growth ruk jaana (bacchon mein)
+CAUSES: Sahi khaana na khana, poverty, illness
+HOME_REMEDY: Protein rich food (daal, eggs, milk), fruits, vegetables, regular meals
+MEDICINE: Multivitamins, doctor se proper nutrition plan lo
+WARNING: Bacchon mein permanent damage ho sakta hai
+ESCALATE: YES agar bahut severe ho
+
+DISEASE: Obesity
+SYMPTOMS: BMI 30 se upar, saans fulna, joints mein dard, thakaan, BP high
+CAUSES: Zyada khaana, exercise na karna, genetics, hormonal issues
+HOME_REMEDY: Regular exercise, fruits vegetables zyada, sugar oil kam karo
+MEDICINE: Doctor ki salah se, weight loss program
+WARNING: Diabetes, BP, heart disease ka risk badh jaata hai
+ESCALATE: YES agar BMI 40 se upar ho ya related bimariyan hon
+
+DISEASE: Depression
+SYMPTOMS: Udaasi, kuch achha na lagna, neend na aana ya bahut neend, energy nahi, khud ko hurt karna
+CAUSES: Stress, trauma, genetics, hormonal changes, loneliness
+HOME_REMEDY: Exercise, doston se baat karo, dhoop mein baithna, meditation, yoga
+MEDICINE: Doctor ya psychiatrist se zaroor milo, therapy
+WARNING: Akele mat raho, kisi se baat karo
+ESCALATE: YES agar khud ko hurt karne ke thoughts aayein
+
+DISEASE: Anxiety
+SYMPTOMS: Zyada sochna, heartbeat tez, paseena, haath kaanpna, neend na aana, dar
+CAUSES: Stress, trauma, genetics, caffeine, life changes
+HOME_REMEDY: Deep breathing, meditation, exercise, caffeine kam karo, yoga
+MEDICINE: Doctor se consult karo, therapy bahut helpful hai
+WARNING: Panic attack mein slow breathing karo
+ESCALATE: YES agar daily life affected ho raha ho
+
+DISEASE: Insomnia
+SYMPTOMS: Neend na aana, raat ko bar bar uthna, subah thaka hona, din mein neend
+CAUSES: Stress, screen time, caffeine, anxiety, irregular schedule
+HOME_REMEDY: Regular sleep schedule, screen band karo sone se pehle, warm milk, meditation
+MEDICINE: Doctor se consult karo, melatonin (short term)
+WARNING: Chronic insomnia serious health issues create karta hai
+ESCALATE: YES agar 1 mahine se zyada se neend nahi aa rahi
+
+DISEASE: Acne
+SYMPTOMS: Pimples, blackheads, whiteheads, skin pe red spots, oily skin
+CAUSES: Hormones, bacteria, oil glands, stress, wrong products
+HOME_REMEDY: Face dhona, tea tree oil, aloe vera, neem, turmeric pack, paani zyada piyo
+MEDICINE: Benzoyl peroxide (mild), Adapalene gel, doctor se Tretinoin
+WARNING: Dabaao mat pimples ko, scar pad jaata hai
+ESCALATE: YES agar bahut severe cystic acne ho
+
+DISEASE: Eczema
+SYMPTOMS: Dry itchy skin, red patches, skin cracks, blisters, raat ko zyada khujli
+CAUSES: Allergy, genetics, dry skin, stress, certain soaps
+HOME_REMEDY: Coconut oil, aloe vera, oatmeal bath, soft cotton kapde, moisturizer
+MEDICINE: Hydrocortisone cream (mild), doctor se stronger options
+WARNING: Triggers identify karo aur avoid karo
+ESCALATE: YES agar infection ho jaye ya bahut zyada ho
+
+DISEASE: Psoriasis
+SYMPTOMS: Silver scaly patches, red inflamed skin, khujli, joint dard (kuch cases mein)
+CAUSES: Immune system, genetics, stress, infections
+HOME_REMEDY: Coconut oil, aloe vera, sun exposure (limited), stress management
+MEDICINE: Coal tar cream, Calcipotriol, doctor se proper treatment
+WARNING: Chronic condition hai, manage karna hoga
+ESCALATE: YES agar bahut zyada body cover ho ya joints mein dard ho
+
+DISEASE: Hair Loss (Alopecia)
+SYMPTOMS: Baal jhadna, bald patches, baalon ka patla hona, scalp dikh na
+CAUSES: Stress, hormones, thyroid, nutrition deficiency, genetics
+HOME_REMEDY: Onion juice, coconut oil massage, amla, bhringraj oil, protein zyada khao
+MEDICINE: Minoxidil (topical), doctor se Finasteride, PRP therapy
+WARNING: Andar ki problem fix karo pehle (thyroid, iron check)
+ESCALATE: YES agar achanak zyada baal jhadein
+
+DISEASE: Conjunctivitis (Pink Eye)
+SYMPTOMS: Aankhein laal, discharge, khujli, sujan, roshni se takleef
+CAUSES: Bacteria, virus, allergy, infected person se
+HOME_REMEDY: Clean warm water se saaf karo, rose water, rest
+MEDICINE: Antibiotic eye drops (doctor se), antihistamine allergy ke liye
+WARNING: Bahut contagious hai, haath dhote raho
+ESCALATE: YES agar vision affect ho ya bahut dard ho
+
+DISEASE: Cataracts
+SYMPTOMS: Dhundla dikhna, raat ko dekhne mein takleef, colors fade lagna, glare
+CAUSES: Age, diabetes, UV exposure, smoking, genetics
+HOME_REMEDY: Sunglasses pehnna, vitamin C rich food, carrots, green leafy vegetables
+MEDICINE: Doctor se consult, surgery hi permanent solution hai
+WARNING: Early stages mein manage ho sakta hai
+ESCALATE: YES agar vision bahut zyada affect ho
+
+DISEASE: Glaucoma
+SYMPTOMS: Peripheral vision loss, aankhon mein dard, redness, headache, halos
+CAUSES: Increased eye pressure, age, genetics, diabetes
+HOME_REMEDY: Regular eye checkup, stress kam karo, exercise
+MEDICINE: Eye drops (doctor se), surgery options available
+WARNING: Silent thief of vision — regular checkup zaroori
+ESCALATE: YES turant eye doctor ke paas jao
+
+DISEASE: Ear Infection
+SYMPTOMS: Kan mein dard, discharge, sunne mein takleef, bukhar, khujli
+CAUSES: Bacteria, virus, swimming, cold se
+HOME_REMEDY: Warm compress, garlic oil (bahar), cotton mat daalo
+MEDICINE: Antibiotic ear drops (doctor se), pain killers
+WARNING: Khud kaan saaf karne ki koshish mat karo
+ESCALATE: YES agar discharge ho ya sunai dena band ho
+
+DISEASE: Tonsillitis
+SYMPTOMS: Gale mein dard, tonsils pe white patches, bukhar, khaane mein takleef, gale mein sujan
+CAUSES: Streptococcus bacteria, virus
+HOME_REMEDY: Warm salt water gargle, honey ginger tea, ice cream (thanda aaram deta hai)
+MEDICINE: Antibiotics (doctor se), Paracetamol dard ke liye
+WARNING: Baar baar ho toh surgery ka option doctor se poocho
+ESCALATE: YES agar saans lene mein takleef ho
+
+DISEASE: Sinusitis
+SYMPTOMS: Naak band, sir mein pressure, aankhon ke neeche dard, thick discharge, smell na aana
+CAUSES: Cold ke baad infection, allergy, deviated septum
+HOME_REMEDY: Steam inhalation, warm compress, saline nasal rinse, haldi wala doodh
+MEDICINE: Decongestants, Amoxicillin (doctor se), nasal sprays
+WARNING: Chronic sinusitis mein ENT doctor se milo
+ESCALATE: YES agar aankhon mein ya forehead mein severe dard ho
+
+DISEASE: Vertigo
+SYMPTOMS: Chakkar aana, balance ka bigadna, ulti, aankhein hilna, suno mein dard
+CAUSES: Inner ear problem, BPPV, Meniere's disease, migraine
+HOME_REMEDY: Epley maneuver (YouTube dekho), rest, slowly uthna bethna
+MEDICINE: Betahistine (doctor se), anti-nausea medicines
+WARNING: Driving mat karo chakkar mein
+ESCALATE: YES agar achanak severe chakkar aaye ya sunai na de
+
+DISEASE: Gastritis
+SYMPTOMS: Pet mein jalan, ulti, khana khane ke baad dard, bloating, nausea
+CAUSES: H. pylori bacteria, alcohol, NSAIDs, stress, spicy food
+HOME_REMEDY: Thanda doodh, aloe vera juice, coconut water, spicy khaana avoid karo
+MEDICINE: Omeprazole (PPI), Antacids, H. pylori ke liye antibiotics (doctor se)
+WARNING: Khali pet mat raho, thoda thoda khate raho
+ESCALATE: YES agar khoon ki ulti ho ya kala potty aaye
+
+DISEASE: GERD (Acid Reflux)
+SYMPTOMS: Seene mein jalan, khane ke baad acid aana, sone ke baad zyada, gale mein khatta
+CAUSES: Lower esophageal sphincter weakness, motapa, certain foods
+HOME_REMEDY: Khane ke baad lete mat jao, head uthao sote waqt, spicy/fried avoid karo
+MEDICINE: Omeprazole, Ranitidine (doctor se)
+WARNING: Chronic GERD se esophagus damage ho sakta hai
+ESCALATE: YES agar nigalna mushkil ho ya weight loss ho
+
+DISEASE: Peptic Ulcer
+SYMPTOMS: Pet mein dard (khali pet ya khaane ke 2-3 ghante baad), jalan, nausea
+CAUSES: H. pylori bacteria, NSAIDs (aspirin, ibuprofen) ka zyada use
+HOME_REMEDY: Doodh, banana, cabbage juice, stress management, spicy khaana avoid
+MEDICINE: PPIs + Antibiotics H. pylori ke liye (doctor se zaruri)
+WARNING: Aspirin aur Ibuprofen avoid karo
+ESCALATE: YES agar kala ya laal potty aaye ya severe dard ho
+
+DISEASE: Irritable Bowel Syndrome (IBS)
+SYMPTOMS: Pet dard, bloating, kabz ya dast (ya dono alternate), gas
+CAUSES: Gut-brain connection, stress, certain foods, infections
+HOME_REMEDY: Fiber rich food, stress management, trigger foods avoid karo, probiotics
+MEDICINE: Antispasmodics, fiber supplements (doctor se)
+WARNING: Diary rakho kab symptoms zyada hote hain
+ESCALATE: YES agar weight loss ho ya khoon aaye
+
+DISEASE: Constipation
+SYMPTOMS: 3 din ya zyada potty na aana, hard stool, straining, bloating, pet bhaari
+CAUSES: Kam paani, kam fiber, exercise na karna, certain medicines
+HOME_REMEDY: Zyada paani, isabgol, papaya, prunes, warm water subah, exercise
+MEDICINE: Lactulose syrup (doctor se), glycerin suppository
+WARNING: Chronic constipation mein doctor se milo
+ESCALATE: YES agar 1 hafte se potty na aayi ho ya dard bahut ho
+
+DISEASE: Piles (Hemorrhoids)
+SYMPTOMS: Potty ke baad khoon, potty ke samay dard, khujli, mass feel hona
+CAUSES: Constipation, strain karna, pregnancy, long time baithna
+HOME_REMEDY: Sitz bath, aloe vera, fiber zyada khao, paani zyada peeyo, avoid strain
+MEDICINE: Hemorrhoid creams (doctor se), Witch hazel
+WARNING: Fiber aur paani increase karo — preventive measure
+ESCALATE: YES agar bahut zyada bleeding ho
+
+DISEASE: Liver Cirrhosis
+SYMPTOMS: Thakaan, peeli skin, pet mein paani (ascites), confusion, easy bleeding
+CAUSES: Chronic alcohol use, Hepatitis B/C, fatty liver
+HOME_REMEDY: Alcohol bilkul band, halka khaana, namak kam, rest
+MEDICINE: Diuretics (doctor se), liver specialists se milo
+WARNING: Alcohol hamesha ke liye band karna hoga
+ESCALATE: YES turant specialist ke paas jao
+
+DISEASE: Fatty Liver
+SYMPTOMS: Zyada cases mein koi symptom nahi, thakaan, pet ke upar daayein dard
+CAUSES: Alcohol, motapa, diabetes, high cholesterol
+HOME_REMEDY: Wajan kam karo, alcohol band, exercise, green vegetables zyada
+MEDICINE: Doctor se consult, fatty liver reversible hai early stages mein
+WARNING: Early stage mein lifestyle change se theek ho sakta hai
+ESCALATE: YES agar liver function tests bahut abnormal hon
+
+DISEASE: Gallstones
+SYMPTOMS: Khana khane ke baad daayein upar pet mein dard, ulti, nausea, back mein dard
+CAUSES: Cholesterol buildup, bile salt imbalance, rapid weight loss
+HOME_REMEDY: Low fat diet, apple cider vinegar, olive oil (sirf relief ke liye), paani zyada
+MEDICINE: Ursodeoxycholic acid (doctor se), surgery usually needed
+WARNING: Fatty foods se attack trigger hota hai
+ESCALATE: YES agar tez dard ho ya bukhar aaye
+
+DISEASE: Pancreatitis
+SYMPTOMS: Pet ke upper middle mein tez dard, peethe mein dard, ulti, bukhar
+CAUSES: Gallstones, alcohol, high triglycerides
+HOME_REMEDY: Kuch na khao jab tak dard ho, thoda paani, rest, alcohol band
+MEDICINE: HOSPITAL EMERGENCY — IV fluids aur medicines zaroori
+WARNING: Acute pancreatitis serious emergency hai
+ESCALATE: YES TURANT HOSPITAL JAO
+
+DISEASE: Heart Attack
+SYMPTOMS: Seene mein tez dard ya pressure, left arm mein dard, jaw dard, paseena, saans fulna
+CAUSES: Blocked coronary artery, clot
+HOME_REMEDY: EMERGENCY — Aspirin 325mg do agar available ho, seedha hospital
+MEDICINE: Aspirin, clot busters (hospital mein)
+WARNING: Har minute matter karta hai — TURANT hospital
+ESCALATE: YES TURANT EMERGENCY 108 CALL KARO
+
+DISEASE: Stroke
+SYMPTOMS: Achanak ek taraf kamzori, baat karne mein takleef, aankhon mein dhundla, severe headache, balance loss
+CAUSES: Blocked ya burst blood vessel brain mein
+HOME_REMEDY: EMERGENCY — FAST test karo (Face, Arms, Speech, Time)
+MEDICINE: Hospital mein hi treatment possible hai
+WARNING: Har second brain cells maarte hain — TURANT hospital
+ESCALATE: YES TURANT EMERGENCY 108 CALL KARO
+
+DISEASE: Epilepsy
+SYMPTOMS: Seizures, body kaanpna, hosh khona, staring spells, confusion
+CAUSES: Brain injury, genetics, infection, unknown
+HOME_REMEDY: Safe jagah pe litao, sar ke neeche soft cheez rakho, kuch mooh mein mat daalo
+MEDICINE: Antiepileptic drugs (doctor se strictly), niyamit leni padegi
+WARNING: Seizure ke waqt kuch mooh mein mat daalo
+ESCALATE: YES agar seizure 5 min se zyada chale ya repeat ho
+
+DISEASE: Meningitis
+SYMPTOMS: Tez sir dard, bukhar, gardan akadna, roshni se takleef, rash, ulti
+CAUSES: Bacteria ya virus brain ke covering mein infection
+HOME_REMEDY: EMERGENCY HAI — seedha hospital
+MEDICINE: IV antibiotics (hospital mein)
+WARNING: Life threatening emergency hai
+ESCALATE: YES TURANT HOSPITAL JAO
+
+DISEASE: Urticaria (Hives)
+SYMPTOMS: Red itchy welts skin pe, sujan, khujli, thodi der mein aate jaate hain
+CAUSES: Allergy (food, medicine, insect), stress, cold
+HOME_REMEDY: Cold compress, aloe vera, oatmeal bath, antihistamine
+MEDICINE: Cetirizine ya Loratadine (antihistamine), doctor se severe case mein
+WARNING: Anaphylaxis ka sign ho sakta hai
+ESCALATE: YES agar saans lene mein takleef ho ya face swell ho
+
+DISEASE: Anaphylaxis
+SYMPTOMS: Achanak saans lene mein takleef, face/throat swelling, BP drop, hives, panic
+CAUSES: Bee sting, nuts, medicines, latex allergy
+HOME_REMEDY: EMERGENCY — Epipen agar available ho, seedha hospital
+MEDICINE: Epinephrine injection (hospital mein), steroids
+WARNING: Minutes mein fatal ho sakta hai
+ESCALATE: YES TURANT EMERGENCY 108 CALL KARO
+
+DISEASE: Osteoporosis
+SYMPTOMS: Back pain, height kam hona, hunched posture, fracture easily hona
+CAUSES: Calcium/Vitamin D deficiency, age, menopause, steroids
+HOME_REMEDY: Calcium rich food (milk, ragi, sesame), sunlight, weight bearing exercise
+MEDICINE: Calcium + Vitamin D supplements, Bisphosphonates (doctor se)
+WARNING: Women mein menopause ke baad zyada risk
+ESCALATE: YES agar fracture ho ya spine mein severe dard ho
+
+DISEASE: Gout
+SYMPTOMS: Suddenly tez dard (mostly big toe mein), sujan, redness, hot skin
+CAUSES: High uric acid, red meat, alcohol, seafood, dehydration
+HOME_REMEDY: Cherry juice, paani bahut zyada, ice pack, rest
+MEDICINE: Colchicine ya Indomethacin (doctor se), Allopurinol long term
+WARNING: Trigger foods avoid karo aur paani zyada peeyo
+ESCALATE: YES agar bahut severe attack ho
+
+DISEASE: Varicose Veins
+SYMPTOMS: Legs mein twisted dark blue veins visible, dard, heaviness, swelling
+CAUSES: Weak vein valves, long time khade rehna, pregnancy, obesity
+HOME_REMEDY: Legs uthao sote waqt, compression stockings, exercise, wajan kam karo
+MEDICINE: Doctor se consult, sclerotherapy ya surgery options
+WARNING: Lambe time tak ignore mat karo
+ESCALATE: YES agar ulcer ho jaye ya bahut dard ho
+
+DISEASE: Deep Vein Thrombosis (DVT)
+SYMPTOMS: Ek leg mein sujan, dard, warmth, redness, achanak
+CAUSES: Long flight/journey, bed rest, surgery, dehydration
+HOME_REMEDY: Paani zyada, chal phir lo, legs stretch karo
+MEDICINE: Blood thinners (doctor se), EMERGENCY ho sakta hai
+WARNING: Clot lung mein ja sakta hai
+ESCALATE: YES TURANT DOCTOR KE PAAS JAO
+
+DISEASE: Hypothermia
+SYMPTOMS: Bahut zyada thand, kaanpna, confusion, slow heartbeat, pale skin
+CAUSES: Thand mein zyada exposure,濡れた kapde, elderly log
+HOME_REMEDY: Garam jagah le jao, kapde badlo, garam drinks (alcohol nahi), body warm karo
+MEDICINE: HOSPITAL — severe cases mein
+WARNING: Slowly warm karo, too fast mat karo
+ESCALATE: YES agar temperature 35C se neeche ho
+
+DISEASE: Burns
+SYMPTOMS: Skin red/blistered/charred, dard (ya no pain severe burns mein), swelling
+CAUSES: Fire, hot liquid, chemicals, electricity, sun
+HOME_REMEDY: Thanda paani (15-20 min), clean cloth, toothpaste/ice BILKUL NAHI
+MEDICINE: Silver sulfadiazine cream (doctor se), serious burns mein hospital
+WARNING: Toothpaste, butter, ice mat lagao — infection hogi
+ESCALATE: YES agar face/hands/genitals pe ho ya large area cover kare
+
+DISEASE: Fracture
+SYMPTOMS: Tez dard, sujan, deformity, hilane mein takleef, bruising
+CAUSES: Injury, fall, osteoporosis, direct trauma
+HOME_REMEDY: Hilao mat, splint banao agar ho sake, ice pack, hospital le jao
+MEDICINE: X-ray zaroori hai, plaster ya surgery doctor decide karega
+WARNING: Doubt ho toh X-ray karwa lo
+ESCALATE: YES HOSPITAL JANA ZAROORI HAI
+
+DISEASE: Sprain
+SYMPTOMS: Sujan, bruising, dard, hilane mein takleef, usually ankle ya wrist
+CAUSES: Sudden twist, fall, sports injury
+HOME_REMEDY: RICE — Rest, Ice, Compression, Elevation
+MEDICINE: Ibuprofen, Diclofenac gel (topical), bandage
+WARNING: Fracture se alag karna mushkil hai, X-ray le lo agar shak ho
+ESCALATE: YES agar hilane mein bilkul na ho ya deformity ho
+
+DISEASE: Back Pain (Lower)
+SYMPTOMS: Kamar dard, uthne baithne mein takleef, leg mein dard (sciatica), akadhat
+CAUSES: Muscle strain, disc problem, posture, sedentary lifestyle
+HOME_REMEDY: Warm compress, light exercise, posture theek karo, yoga
+MEDICINE: Ibuprofen, muscle relaxants (doctor se), physiotherapy
+WARNING: Lete lete na raho, light movement helpful hai
+ESCALATE: YES agar leg mein numbness ho ya bladder control na ho
+
+DISEASE: Cervical Spondylosis
+SYMPTOMS: Gardan dard, sir dard, haath mein numbness, chakkar, stiffness
+CAUSES: Age related wear, bad posture, prolonged screen time
+HOME_REMEDY: Neck exercises, hot compress, posture correct karo, yoga
+MEDICINE: Pain killers, physiotherapy, cervical collar (doctor se)
+WARNING: Mobile phone karte waqt gardan jhukao mat
+ESCALATE: YES agar haath kamzor ho jaayein ya bahut zyada chakkar aaye
+
+DISEASE: Carpal Tunnel Syndrome
+SYMPTOMS: Haath/ungliyon mein numbness, tingling, weakness, raat ko zyada
+CAUSES: Repetitive hand movements, typing, pregnancy, diabetes
+HOME_REMEDY: Wrist rest, ice pack, stretching exercises, wrist splint raat ko
+MEDICINE: Anti-inflammatory (doctor se), steroid injection, surgery option
+WARNING: Early treatment se surgery avoid ho sakti hai
+ESCALATE: YES agar haath bahut kamzor ho jaaye
+
+DISEASE: Frozen Shoulder
+SYMPTOMS: Shoulder mein dard aur stiffness, arm hilane mein takleef, gradually badh ta hai
+CAUSES: Injury, surgery ke baad, diabetes, thyroid
+HOME_REMEDY: Gentle exercises, warm compress, physiotherapy bahut zaroori
+MEDICINE: Pain killers, steroid injection (doctor se), physiotherapy
+WARNING: Theek hone mein 1-3 saal lag sakte hain
+ESCALATE: YES agar shoulder bilkul na hile
+
+DISEASE: Tennis Elbow
+SYMPTOMS: Elbow ke bahar dard, grip karne mein takleef, forearm mein dard
+CAUSES: Repetitive arm/wrist movements, sports, computer use
+HOME_REMEDY: Rest, ice pack, elbow brace, stretching exercises
+MEDICINE: Ibuprofen, physiotherapy, steroid injection (doctor se)
+WARNING: Rest zaroori hai — use karte raho toh time lagega
+ESCALATE: YES agar bahut severe pain ho ya arm weak ho
+
+DISEASE: Plantar Fasciitis
+SYMPTOMS: Subah uthke pehla step mein heel mein dard, din mein thoda better
+CAUSES: Overweight, flat feet, wrong shoes, long standing
+HOME_REMEDY: Stretching exercises, heel pad, ice massage, arch support shoes
+MEDICINE: Ibuprofen, physiotherapy, orthotics (doctor se)
+WARNING: Right shoes bahut important hain
+ESCALATE: YES agar dard bahut severe ho aur walk na ho paye
+
+DISEASE: Prostate Problems (BPH)
+SYMPTOMS: Baar baar peshab, weak stream, raat ko zyada peshab, bladder empty na hona
+CAUSES: Age related prostate enlargement
+HOME_REMEDY: Caffeine aur alcohol avoid karo, double voiding, kegel exercises
+MEDICINE: Alpha blockers (doctor se), prostate check karwao
+WARNING: 50 saal ke baad regular prostate checkup zaroori
+ESCALATE: YES agar peshab bilkul band ho jaye
+
+DISEASE: PCOS (Polycystic Ovary Syndrome)
+SYMPTOMS: Irregular periods, weight gain, chehre pe baal, acne, pregnancy mein takleef
+CAUSES: Hormonal imbalance, insulin resistance, genetics
+HOME_REMEDY: Weight kam karo, exercise, sugar kam karo, stress management
+MEDICINE: Metformin, birth control pills (doctor se), specialist se milo
+WARNING: Untreated PCOS se diabetes aur heart disease ka risk
+ESCALATE: YES agar pregnancy mein problem ho ya bahut severe symptoms hon
+
+DISEASE: Endometriosis
+SYMPTOMS: Bahut tez periods pain, periods ke beech bleeding, sex mein dard, fertility issues
+CAUSES: Uterine tissue bahar grow karta hai, exact cause unknown
+HOME_REMEDY: Heat therapy, exercise, anti-inflammatory foods
+MEDICINE: Pain killers, hormonal treatment, laparoscopy (doctor se)
+WARNING: Early diagnosis bahut important hai
+ESCALATE: YES agar daily life affect ho raha ho
+
+DISEASE: Fibroids
+SYMPTOMS: Heavy periods, pelvic pressure, frequent urination, back pain
+CAUSES: Hormonal imbalance (estrogen), genetics
+HOME_REMEDY: Iron rich food (anemia se bachao), heat therapy
+MEDICINE: Hormonal medicines, surgery (doctor se, specialist se)
+WARNING: Zyada cases mein benign hote hain
+ESCALATE: YES agar bahut heavy bleeding ho ya anemia ho
+
+DISEASE: Menopause
+SYMPTOMS: Hot flashes, raat ko paseena, mood swings, neend na aana, vaginal dryness
+CAUSES: Natural age related hormonal decline (40-50 saal ke aas paas)
+HOME_REMEDY: Cool kapde, fans, soy products, exercise, stress management
+MEDICINE: HRT (doctor se), calcium supplements, vitamin D
+WARNING: Osteoporosis aur heart disease ka risk badh jaata hai
+ESCALATE: YES agar symptoms bahut severe hon
+
+DISEASE: Prostate Cancer
+SYMPTOMS: Peshab mein takleef, blood in urine, back/hip dard, weight loss (advanced)
+CAUSES: Age, genetics, diet, hormones
+HOME_REMEDY: Tomatoes (lycopene), green tea, exercise, healthy diet
+MEDICINE: Doctor se zaroor milo, early detection zaroori
+WARNING: 50 ke baad PSA test karao
+ESCALATE: YES turant oncologist se milo
+
+DISEASE: Breast Cancer
+SYMPTOMS: Breast mein lump, nipple se discharge, skin dimpling, shape change
+CAUSES: Genetics, hormones, age, radiation exposure
+HOME_REMEDY: Regular self examination, healthy weight, exercise, alcohol avoid
+MEDICINE: Doctor se zaroor milo — early detection bahut zaroori hai
+WARNING: Har mahine self breast exam karo
+ESCALATE: YES agar koi bhi lump feel ho
+
+DISEASE: Cervical Cancer
+SYMPTOMS: Irregular bleeding, sex ke baad bleeding, pelvis mein dard, discharge
+CAUSES: HPV virus, multiple partners, smoking
+HOME_REMEDY: HPV vaccine le lo (young girls ke liye), regular Pap smear
+MEDICINE: Doctor se zaroor milo, early detection curable hai
+WARNING: Regular Pap smear test karao
+ESCALATE: YES agar koi bhi symptoms hon
+
+DISEASE: Skin Cancer
+SYMPTOMS: Mole ka shape/color change, new growth, non-healing sore
+CAUSES: UV exposure, fair skin, family history
+HOME_REMEDY: Sunscreen lagao, sun exposure avoid karo, regular skin checkup
+MEDICINE: Doctor se zaroor milo, early detection zaroori
+WARNING: ABCDE rule — Asymmetry, Border, Color, Diameter, Evolution
+ESCALATE: YES agar mole change kare
+
+DISEASE: Kidney Disease (CKD)
+SYMPTOMS: Thakaan, ankles mein sujan, baar baar peshab, blood in urine, high BP
+CAUSES: Diabetes, hypertension, repeated kidney infections
+HOME_REMEDY: Paani zyada, namak kam, protein moderate, BP control karo
+MEDICINE: Doctor se zaroor milo, nephologist se
+WARNING: Diabetes aur BP ko control karo — biggest preventors
+ESCALATE: YES agar creatinine high ho ya peshab bahut kam ho
+
+DISEASE: Alzheimer's Disease
+SYMPTOMS: Memory loss, confusion, baat karne mein takleef, familiar jagah bhoolan
+CAUSES: Brain cells ka marna, plaques aur tangles, age, genetics
+HOME_REMEDY: Mental exercise, social activity, healthy diet, exercise, quality sleep
+MEDICINE: Donepezil, Memantine (doctor se), koi cure nahi lekin slow kar sakte hain
+WARNING: Early diagnosis se quality of life behtar hoti hai
+ESCALATE: YES agar symptoms aayein toh neurologist se milo
+
+DISEASE: Parkinson's Disease
+SYMPTOMS: Haath kaanpna, movement slow, balance issues, stiff muscles, writing change
+CAUSES: Dopamine producing cells ka nuksaan, genetics, environment
+HOME_REMEDY: Exercise (bahut important), physiotherapy, speech therapy
+MEDICINE: Levodopa, Dopamine agonists (doctor se), specialist zaroori
+WARNING: Exercise se progression slow hoti hai
+ESCALATE: YES agar daily life bahut affect ho
+
+DISEASE: Multiple Sclerosis
+SYMPTOMS: Vision problems, numbness/tingling, weakness, fatigue, balance issues
+CAUSES: Immune system attacks myelin, genetics, environment
+HOME_REMEDY: Rest, stress management, vitamin D, cool temperature
+MEDICINE: Disease modifying therapies (specialist se), no cure but manageable
+WARNING: Hot weather symptoms worse kar sakta hai
+ESCALATE: YES turant neurologist se milo
+
+DISEASE: Lupus
+SYMPTOMS: Butterfly rash face pe, joint dard, thakaan, sun sensitivity, kidney issues
+CAUSES: Autoimmune — body khud ko attack karta hai, genetics
+HOME_REMEDY: Sun se bachao, stress management, rest, healthy diet
+MEDICINE: Hydroxychloroquine, steroids (doctor se), specialist zaroori
+WARNING: Sun exposure bahut harmful hai
+ESCALATE: YES turant rheumatologist se milo
+
+DISEASE: Rheumatoid Arthritis
+SYMPTOMS: Joints mein dard aur sujan (symmetrical), subah akadhat, thakaan, low grade fever
+CAUSES: Autoimmune, genetics, smoking, infection triggers
+HOME_REMEDY: Exercise, warm/cold compress, fish oil, turmeric, stress management
+MEDICINE: Methotrexate, DMARDs (doctor se strictly), early treatment zaroori
+WARNING: Early treatment se joint damage rokta hai
+ESCALATE: YES turant rheumatologist se milo
+
+DISEASE: Sickle Cell Disease
+SYMPTOMS: Pain crises, anemia, infections zyada, yellow eyes, swollen hands/feet
+CAUSES: Genetic — abnormal hemoglobin
+HOME_REMEDY: Paani zyada, cold avoid, stress avoid, infections se bacho
+MEDICINE: Hydroxyurea (doctor se), pain management, blood transfusions
+WARNING: Genetic counseling important hai family planning ke liye
+ESCALATE: YES pain crisis mein hospital jao
+
+DISEASE: Thalassemia
+SYMPTOMS: Thakaan, pale skin, slow growth, bone problems, yellow skin
+CAUSES: Genetic blood disorder, hemoglobin abnormal
+HOME_REMEDY: Iron rich food (lekin iron overload se bacho), folic acid
+MEDICINE: Blood transfusions, chelation therapy (doctor se)
+WARNING: Genetic testing zaroori hai — carrier parents mein
+ESCALATE: YES specialist (hematologist) se milo
+
+DISEASE: HIV/AIDS
+SYMPTOMS: Early — flu like. Later — weight loss, infections, night sweats, diarrhea
+CAUSES: HIV virus — unprotected sex, needle sharing, mother to child
+HOME_REMEDY: Healthy khaana, exercise, stress management, infections se bacho
+MEDICINE: Antiretroviral therapy (ART) — government free deti hai
+WARNING: Condom use karo, needle sharing bilkul nahi
+ESCALATE: YES turant doctor se milo — ART se normal life possible hai
+
+DISEASE: Sexually Transmitted Infections (STI)
+SYMPTOMS: Discharge, ulcers, rash, burning urination, pelvic pain
+CAUSES: Unprotected sex, multiple partners
+HOME_REMEDY: Abstinence ya condom use karo
+MEDICINE: Antibiotics (doctor se), specific treatment per infection
+WARNING: Kuch STIs mein symptoms nahi hote, test karao
+ESCALATE: YES turant doctor se milo — partner ko bhi treat karna hoga
+
+DISEASE: Worms (Intestinal Parasites)
+SYMPTOMS: Pet mein dard, khujli (especially guda ke paas raat ko), weight loss, nausea
+CAUSES: Contaminated khaana paani, haath na dhona, barefoot chalna
+HOME_REMEDY: Haath dhona, khaana pakka ke khao, paani saaf piyo, barefoot mat chalo
+MEDICINE: Albendazole 400mg single dose, ya Mebendazole (doctor se)
+WARNING: Poore ghar ko saath mein treat karo
+ESCALATE: YES agar bacche ka growth ruk raha ho
+
+DISEASE: Lice (Head Lice)
+SYMPTOMS: Sar mein khujli, specially peeche aur kaano ke paas, nits (eggs) baalon mein
+CAUSES: Infected person se direct contact, shared comb/pillow
+HOME_REMEDY: Neem oil, tea tree oil, fine comb se nikalo, kapde garam paani mein dhoye
+MEDICINE: Permethrin lotion ya Malathion (doctor se)
+WARNING: Poore ghar ke logon ko check karo
+ESCALATE: NO — uncomfortable hai lekin serious nahi
+
+DISEASE: Fungal Nail Infection
+SYMPTOMS: Nail yellow/brown hona, thick hona, brittle, smell
+CAUSES: Fungi, damp conditions, public showers, tight shoes
+HOME_REMEDY: Tea tree oil, area dry rakho, breathable shoes, socks change karo
+MEDICINE: Terbinafine (oral — doctor se), antifungal nail paint
+WARNING: Lamba treatment lagta hai — patience rakho
+ESCALATE: YES agar infection phail jaye ya diabetes ho
+
+DISEASE: Athlete's Foot
+SYMPTOMS: Paon ki ungliyon ke beech khujli, burning, skin crack, blisters
+CAUSES: Fungal infection, damp socks/shoes, public showers
+HOME_REMEDY: Tea tree oil, paon dry rakho, cotton socks, open shoes
+MEDICINE: Clotrimazole cream, Terbinafine cream (antifungal)
+WARNING: Nange paon public showers mein mat jao
+ESCALATE: NO agar normal hai lekin YES agar infection ho
+
+DISEASE: Boils (Furuncles)
+SYMPTOMS: Red painful lump, gradually soft hota hai, pus aata hai, fever (sometimes)
+CAUSES: Staph bacteria, hair follicle infection
+HOME_REMEDY: Warm compress 3-4 baar daily, clean rakho, daba mat
+MEDICINE: Antibiotics (serious cases mein doctor se), incision and drainage
+WARNING: Squeez mat karo — infection phail sakti hai
+ESCALATE: YES agar fever ho ya face pe ho ya bahut bade hon
+
+DISEASE: Cellulitis
+SYMPTOMS: Skin red, warm, swollen, dard, quickly phailta hai, fever
+CAUSES: Bacteria skin ke andar ghus jaate hain, cut ya wound se
+HOME_REMEDY: Leg/arm uthao, clean rakho, antibiotics zaroori hain
+MEDICINE: Antibiotics (doctor se zaruri), serious mein IV antibiotics
+WARNING: Quickly phailta hai — delay mat karo
+ESCALATE: YES agar bahut tez phail raha ho ya fever ho
+
+DISEASE: Impetigo
+SYMPTOMS: Red sores jo burst ho ke honey-colored crust banaate hain, mostly face pe
+CAUSES: Staph ya Strep bacteria, skin infection, contagious
+HOME_REMEDY: Area saaf rakho, crust gentle se hataao, share mat karo
+MEDICINE: Mupirocin ointment (topical), oral antibiotics (doctor se)
+WARNING: Bahut contagious hai school age children mein
+ESCALATE: YES agar bahut phail jaye ya fever aaye
+
+DISEASE: Shingles (Herpes Zoster)
+SYMPTOMS: Ek taraf chest/face pe painful rash with blisters, burning sensation, pehle dard
+CAUSES: Varicella virus reactivation — jo chickenpox karता था
+HOME_REMEDY: Cool compress, calamine lotion, loose kapde, rest
+MEDICINE: Acyclovir (antiviral — jaldi lena zaroori), pain killers (doctor se)
+WARNING: Jaldi treatment karo — PHN (chronic pain) se bacha jaata hai
+ESCALATE: YES agar aankhon ke paas ho ya bahut severe pain ho
+
+DISEASE: Cold Sores (Herpes Labialis)
+SYMPTOMS: Lips pe ya paas tingling, phir blister, phir crust
+CAUSES: HSV-1 virus, stress ya sun se reactivate
+HOME_REMEDY: Ice pack, aloe vera, lysine supplement, stress avoid karo
+MEDICINE: Acyclovir cream (topical), Valacyclovir (doctor se oral)
+WARNING: Touch karke aankh mat chhoona — eye infection ho sakta hai
+ESCALATE: NO unless bahut severe ho ya eye near ho
+
+DISEASE: Warts
+SYMPTOMS: Rough small growth on skin, hands/feet pe common, kala dot center mein
+CAUSES: HPV virus, skin to skin contact
+HOME_REMEDY: Apple cider vinegar, banana peel, duct tape, patience
+MEDICINE: Salicylic acid, liquid nitrogen (doctor se), cryotherapy
+WARNING: Akele theek ho jaate hain magar time lagta hai
+ESCALATE: NO unless face pe ho ya bahut zyada hon
+
+DISEASE: Vitiligo
+SYMPTOMS: Skin pe white patches, hair bhi white ho sakte hain, slowly badh ta hai
+CAUSES: Autoimmune — melanocytes destroy ho jaate hain, genetics
+HOME_REMEDY: Sun protection bahut zaroori, stress management, vitamin D
+MEDICINE: Corticosteroids, phototherapy (doctor se), specialist zaroori
+WARNING: Yeh sirf cosmetic hai, serious nahi
+ESCALATE: YES agar bahut jaldi phail raha ho ya face pe ho
+
+DISEASE: Alopecia Areata
+SYMPTOMS: Round bald patches achanak aana, nail changes bhi ho sakte hain
+CAUSES: Autoimmune, stress, genetics
+HOME_REMEDY: Stress management, scalp massage, onion juice, garlic
+MEDICINE: Corticosteroid injections, Minoxidil (doctor se)
+WARNING: Bahut cases mein baal wapas aate hain
+ESCALATE: YES agar poora sar ya body ke baal jaayein
+
+DISEASE: Rosacea
+SYMPTOMS: Face pe redness, visible blood vessels, pimples jaisi bumps, nose enlarge
+CAUSES: Genetics, sun, spicy food, alcohol, hot drinks, temperature changes
+HOME_REMEDY: Sun protection, trigger foods avoid, gentle skincare
+MEDICINE: Metronidazole gel, Azelaic acid (doctor se), laser options
+WARNING: Triggers identify karo — diary rakho
+ESCALATE: YES agar aankhein affect hon (Ocular Rosacea)
+
+DISEASE: Seborrheic Dermatitis
+SYMPTOMS: Dandruff, scalp pe flaky skin, eyebrows/nose side pe redness, oily flakes
+CAUSES: Malassezia yeast, oily skin, stress, cold weather
+HOME_REMEDY: Tea tree oil shampoo, coconut oil, zinc pyrithione shampoo, stress kam karo
+MEDICINE: Ketoconazole shampoo/cream (doctor se)
+WARNING: Chronic condition hai — manage karna hoga
+ESCALATE: NO unless infected ho
+
+DISEASE: Contact Dermatitis
+SYMPTOMS: Rash jahan allergen ya irritant touch hua, red, itchy, blisters, dry
+CAUSES: Jewelry (nickel), latex, soaps, plants, chemicals
+HOME_REMEDY: Allergen hataao, cold compress, aloe vera, moisturizer
+MEDICINE: Hydrocortisone cream, Antihistamine (doctor se severe case mein)
+WARNING: Trigger identify karo aur avoid karo
+ESCALATE: YES agar bahut severe ho ya anaphylaxis ke signs hon
+
+DISEASE: Sunburn
+SYMPTOMS: Red painful skin, warm touch, blisters (severe), peeling, thakaan
+CAUSES: UV radiation, bina sunscreen ke dhoop mein rehna
+HOME_REMEDY: Cool water, aloe vera gel, coconut oil, hydrate karo, ice nahi
+MEDICINE: Ibuprofen (inflammation ke liye), moisturizing lotion
+WARNING: Repeated sunburn se skin cancer ka risk
+ESCALATE: YES agar bahut bade area pe severe blisters hon ya fever ho
+
+DISEASE: Insect Bites
+SYMPTOMS: Red itchy bump, sujan, pain, allergic reaction (serious mein)
+CAUSES: Mosquito, bee, wasp, ant, spider
+HOME_REMEDY: Ice pack, aloe vera, antihistamine cream, dabaao mat sting ko
+MEDICINE: Antihistamine (Cetirizine), Hydrocortisone cream
+WARNING: Bee/wasp ke multiple stings ya allergy mein EMERGENCY
+ESCALATE: YES agar breathing mein takleef ho ya throat swell ho
+
+DISEASE: Dog Bite
+SYMPTOMS: Wound, bleeding, dard, infection possible, rabies risk
+CAUSES: Dog attack, even known dog
+HOME_REMEDY: Achhe se 15 min paani se dhoo, soap lagao, hospital jao
+MEDICINE: Rabies vaccine course zaroori, Tetanus injection, antibiotics
+WARNING: Rabies fatal hai — vaccine bilkul zaruri hai
+ESCALATE: YES TURANT HOSPITAL JANTE KE LIYE VACCINE LO
+
+DISEASE: Scorpion Sting
+SYMPTOMS: Tez dard, numbness, tingling, sujan, severe mein BP drop, breathing issues
+CAUSES: Scorpion ka dank maarna
+HOME_REMEDY: Ice pack, area saaf karo, shaant raho, turant hospital
+MEDICINE: Antivenom (hospital mein), pain management
+WARNING: India ke kuch scorpion bahut zahrile hain
+ESCALATE: YES TURANT HOSPITAL JAO
+
+DISEASE: Jellyfish Sting
+SYMPTOMS: Immediate tez dard, red welts, itching, nausea, severe mein heart issues
+CAUSES: Jellyfish tentacles se contact
+HOME_REMEDY: Sea water se dhoo (fresh water nahi), tentacles hataao, hot water soak
+MEDICINE: Pain killers, antihistamine, doctor se consult
+WARNING: Vinegar apply karo (Blue bottle jellyfish ke liye)
+ESCALATE: YES agar allergic reaction ya breathing issue ho
+
+DISEASE: Altitude Sickness
+SYMPTOMS: Sir dard, nausea, chakkar, thakaan, neend nahi, zyada height pe breathlessness
+CAUSES: High altitude mein oxygen kam hona — mountains par
+HOME_REMEDY: Rest, neeche utro, paani zyada, aspirin ya ibuprofen
+MEDICINE: Acetazolamide (prevention ke liye, doctor se), oxygen
+WARNING: Aur upar mat jao symptoms mein
+ESCALATE: YES agar confusion ho ya cough mein pink froth aaye
+
+DISEASE: Motion Sickness
+SYMPTOMS: Nausea, ulti, chakkar, paseena, pale skin, gaadi/jahaaz/ship mein
+CAUSES: Inner ear aur eyes ka mismatch
+HOME_REMEDY: Fresh air, horizon dekho, adrak candy/tea, sone ki koshish
+MEDICINE: Domperidone, Dimenhydrinate (Dramamine), doctor se
+WARNING: Drive karte waqt mat lo — neend aati hai
+ESCALATE: NO — uncomfortable hai but serious nahi
+
+DISEASE: Bedwetting (Nocturnal Enuresis)
+SYMPTOMS: Raat ko sote waqt peshab ho jaana, bacchon mein common (5+ saal)
+CAUSES: Deep sleep, small bladder, family history, stress
+HOME_REMEDY: Raat ko paani kam, sone se pehle peshab, alarm therapy
+MEDICINE: Desmopressin (doctor se), behavioral therapy
+WARNING: 7 saal ke baad bhi ho toh doctor se milo
+ESCALATE: YES agar suddenly adult mein start ho
+
+DISEASE: Night Sweats
+SYMPTOMS: Raat ko bahut paseena, kapde bhig jaayein, achanak hot feel
+CAUSES: Menopause, infection, cancer, medicines, anxiety
+HOME_REMEDY: Cool room, cotton bedding, caffeine avoid, stress management
+MEDICINE: Cause treat karo, doctor se consult
+WARNING: Unexplained raat ko paseena + weight loss = doctor ke paas jao
+ESCALATE: YES agar weight loss aur thakaan bhi ho
+
+DISEASE: Excessive Sweating (Hyperhidrosis)
+SYMPTOMS: Bahut zyada paseena haath/paon/underarms mein, embarrassing, daily life affect
+CAUSES: Overactive sweat glands, anxiety, thyroid, diabetes
+HOME_REMEDY: Clinical strength antiperspirant, cotton kapde, stress management
+MEDICINE: Botox injections, Iontophoresis (doctor se)
+WARNING: Underlying cause check karo
+ESCALATE: YES agar achanak shuru ho ya bahut severe ho
+
+DISEASE: Bad Breath (Halitosis)
+SYMPTOMS: Mooh se buri smell, taste mein badlaav, dusre log batayein
+CAUSES: Gum disease, cavities, dry mouth, certain foods, digestive issues
+HOME_REMEDY: Dental hygiene improve karo, tongue scraper, green tea, parsley
+MEDICINE: Dentist se milo, gum treatment, cavity fill
+WARNING: Muh se smell = often dental problem
+ESCALATE: NO — but dentist se zaroor milo
+
+DISEASE: Mouth Ulcers (Canker Sores)
+SYMPTOMS: Mooh ke andar white/yellow painful sores, khaane mein takleef
+CAUSES: Stress, Vitamin B12/Iron deficiency, injury, certain foods
+HOME_REMEDY: Honey, aloe vera, salt water gargle, Vitamin B12 lo
+MEDICINE: Triamcinolone gel (topical), Vitamin B12 supplements
+WARNING: 2 hafte se zyada rahe toh doctor se milo
+ESCALATE: YES agar 2+ hafte mein theek na ho ya bahut bade hon
+
+DISEASE: Dry Mouth (Xerostomia)
+SYMPTOMS: Mooh dry rehna, swallowing mushkil, taste change, bad breath, lips crack
+CAUSES: Dehydration, medicines, Sjogren's syndrome, radiation
+HOME_REMEDY: Paani zyada piyo, sugar free gum, mouth rinse
+MEDICINE: Saliva substitutes, underlying cause treat karo (doctor se)
+WARNING: Dental decay ka risk badh jaata hai
+ESCALATE: YES agar swallowing bahut mushkil ho
+
+DISEASE: Teeth Grinding (Bruxism)
+SYMPTOMS: Subah jaw dard, headache, teeth worn down, partner complaint kare raat ko
+CAUSES: Stress, anxiety, sleep apnea, caffeine
+HOME_REMEDY: Stress management, jaw exercises, caffeine avoid, warm compress
+MEDICINE: Night guard (dentist se), Botox jaw muscles mein (severe)
+WARNING: Teeth damage permanent ho sakta hai
+ESCALATE: YES agar bahut severe jaw pain ho
+
+DISEASE: Sleep Apnea
+SYMPTOMS: Bahut zyada kharrate, raat ko baar baar uthna, subah thaka hona, daytime sleepiness
+CAUSES: Throat muscles relax karte hain, obesity, age, alcohol
+HOME_REMEDY: Side pe so, wajan kam karo, alcohol avoid, head uthao sote waqt
+MEDICINE: CPAP machine (doctor se), sleep study zaroori
+WARNING: Heart disease aur stroke ka risk badh ta hai
+ESCALATE: YES agar bahut severe ho ya oxygen drop ho
+
+DISEASE: Restless Leg Syndrome
+SYMPTOMS: Raat ko legs hilane ki irresistible urge, creeping sensation, neend nahi
+CAUSES: Iron deficiency, kidney disease, pregnancy, genetics
+HOME_REMEDY: Warm bath, massage, iron rich food, caffeine/alcohol avoid, exercise
+MEDICINE: Iron supplements, Ropinirole (doctor se)
+WARNING: Iron level check karao pehle
+ESCALATE: YES agar roz ki neend bahut affect ho
+
+DISEASE: Narcolepsy
+SYMPTOMS: Din mein achanak neend aa jaana, cataplexy (suddenly weak hona), sleep paralysis
+CAUSES: Hypocretin deficiency, autoimmune, genetics
+HOME_REMEDY: Nap schedule, caffeine (limited), regular sleep schedule, stress avoid
+MEDICINE: Modafinil, Sodium oxybate (doctor/specialist se strictly)
+WARNING: Driving aur machinery use bilkul safe nahi hai
+ESCALATE: YES turant sleep specialist se milo
+
+DISEASE: Fibromyalgia
+SYMPTOMS: Widespread body pain, thakaan, sleep problems, brain fog, tender points
+CAUSES: Central sensitization, stress, trauma, genetics, infections
+HOME_REMEDY: Gentle exercise (bahut important), sleep hygiene, stress management, yoga
+MEDICINE: Pregabalin, Duloxetine (doctor se), multidisciplinary approach
+WARNING: Real condition hai, psychosomatic nahi
+ESCALATE: YES specialist (rheumatologist) se milo
+
+DISEASE: Chronic Fatigue Syndrome
+SYMPTOMS: Extreme thakaan jo rest se theek nahi, brain fog, joint pain, sore throat
+CAUSES: Viral infection ke baad, immune dysfunction, exact cause unknown
+HOME_REMEDY: Pacing (energy conserve karo), good sleep, stress management
+MEDICINE: Symptom management (doctor se), CBT therapy
+WARNING: Push karne se worse ho sakta hai — pacing zaroori
+ESCALATE: YES specialist se milo diagnosis ke liye
+
+DISEASE: Dry Eyes
+SYMPTOMS: Aankhein jalan, scratchy feel, sensitivity to light, blurry vision, excessive tearing
+CAUSES: Screen time, aging, contact lenses, dry environment, medicines
+HOME_REMEDY: 20-20-20 rule (screen se), artificial tears, humidifier, omega-3
+MEDICINE: Artificial tears (OTC), Cyclosporine eye drops (doctor se)
+WARNING: Screen time kam karo aur breaks lo
+ESCALATE: YES agar vision blurry ho ya severe dard ho
+
+DISEASE: Floaters (Eye)
+SYMPTOMS: Aankhon mein spots ya strings dikhna, especially bright background pe
+CAUSES: Age related vitreous changes, usually benign
+HOME_REMEDY: Usually treatment nahi chahiye, eye movement se move karte hain
+MEDICINE: Doctor se confirm karo ke serious nahi hai
+WARNING: Achanak bahut zyada floaters + flashes = EMERGENCY
+ESCALATE: YES agar achanak bahut zyada floaters aayein ya flashes hon
+
+DISEASE: Lazy Eye (Amblyopia)
+SYMPTOMS: Ek aankh kamzor, depth perception poor, bacchon mein zyada
+CAUSES: Strabismus (crossed eyes), refractive error, cataract
+HOME_REMEDY: Eye patch therapy (strong eye band karo), exercises
+MEDICINE: Glasses, eye patch, surgery (doctor se specialist ke paas)
+WARNING: Early treatment zaroori — baad mein mushkil hota hai
+ESCALATE: YES bacche ki aankhen check karao agar koi problem lage
+
+DISEASE: Colour Blindness
+SYMPTOMS: Red/green ya blue/yellow distinguish karna mushkil, ya total color blindness
+CAUSES: Genetic (mostly males), rarely acquired
+HOME_REMEDY: Special glasses available hain, phone mein colorblind mode
+MEDICINE: Koi cure nahi, management aur adaptation
+WARNING: Certain jobs ke liye restricted ho sakta hai
+ESCALATE: NO — lifestyle adjustment zaroori
+
+DISEASE: Swimmer's Ear (Otitis Externa)
+SYMPTOMS: Kan mein dard (especially ear pull karne pe), itching, discharge, muffled hearing
+CAUSES: Pani ka kan mein rehna, bacteria, swimming, cotton buds
+HOME_REMEDY: Kan dry rakho, hair dryer (low heat, door se), cotton buds NAHI
+MEDICINE: Antibiotic ear drops (doctor se), acetic acid drops
+WARNING: Cotton buds use mat karo — ear canal damage hoti hai
+ESCALATE: YES agar bahut severe pain ho ya discharge ho
+
+DISEASE: Tinnitus
+SYMPTOMS: Kan mein ringing, buzzing, hissing sound — koi bahari source nahi
+CAUSES: Noise exposure, age, earwax, medications, hypertension
+HOME_REMEDY: Quiet jagah avoid, white noise, stress management, caffeine avoid
+MEDICINE: Underlying cause treat karo, sound therapy (doctor se)
+WARNING: Loud music aur headphones avoid karo
+ESCALATE: YES agar achanak ho ya hearing loss ke saath ho
+
+DISEASE: Hearing Loss
+SYMPTOMS: Sunna mushkil, volume badhana padta hai, dusron ko repeat karna padta hai
+CAUSES: Age, noise exposure, infections, wax buildup, genetics
+HOME_REMEDY: Loud noises avoid karo, ear protection, earwax removal (safely)
+MEDICINE: Hearing aids (doctor se), cochlear implant (severe)
+WARNING: Early intervention zaroori hai
+ESCALATE: YES agar achanak sunna band ho jaye
+
+DISEASE: Nose Bleed (Epistaxis)
+SYMPTOMS: Naak se khoon aana
+CAUSES: Dry air, nose picking, injury, high BP, blood thinners
+HOME_REMEDY: Aage jhukhao, naak ke naram hisse ko pinch karo 10-15 min, ice pack
+MEDICINE: Nasal saline spray, doctor se agar frequent ho
+WARNING: Peeche mat jhukhao — blood andar jaata hai
+ESCALATE: YES agar 20 min mein band na ho ya bahut zyada ho
+
+DISEASE: Hiccups
+SYMPTOMS: Involuntary hiccup sound, uncomfortable, usually thodi der mein theek
+CAUSES: Eating too fast, hot/cold food, alcohol, excitement, stomach distension
+HOME_REMEDY: Saansi rokna, paani peena, sugar se seedha khana, shock dena (light)
+MEDICINE: Usually zaroori nahi, chronic mein doctor se
+WARNING: 48 ghante se zyada rahe toh doctor se milo
+ESCALATE: YES agar 48 ghante se zyada ho
+
+DISEASE: Yawning (Excessive)
+SYMPTOMS: Baar baar yawning, neend aana, boredom, thakaan
+CAUSES: Neend ki kami, boredom, anxiety, brain issues (rare)
+HOME_REMEDY: Achhi neend, fresh air, light exercise, hydration
+MEDICINE: Underlying cause treat karo
+WARNING: Achanak excessive yawning + other symptoms = doctor se milo
+ESCALATE: YES agar stroke ya seizure ke saath ho
+
+DISEASE: Nausea
+SYMPTOMS: Ulti jaisi feeling, pet mein discomfort, salivation zyada, pale
+CAUSES: Food poisoning, pregnancy, motion sickness, medicines, migraine
+HOME_REMEDY: Ginger ale/tea, dry crackers, cool fresh air, small sips of water
+MEDICINE: Domperidone, Ondansetron (doctor se), ORS
+WARNING: Dehydration se bacho agar ulti bhi ho
+ESCALATE: YES agar 24 ghante se zyada rahe ya blood aaye
+
+DISEASE: Bloating
+SYMPTOMS: Pet bhaara lagta hai, gas, discomfort, visible swelling
+CAUSES: Gas, IBS, constipation, food intolerance, swallowing air
+HOME_REMEDY: Gas wali drinks avoid, slowly khao, walk karo, fennel seeds, ajwain
+MEDICINE: Simethicone (gas drops), digestive enzymes
+WARNING: Sudden bloating + pain = doctor se milo
+ESCALATE: YES agar severe pain ho ya persist kare
+
+DISEASE: Heartburn
+SYMPTOMS: Seene mein jalan, khane ke baad worse, khattu taste, burping
+CAUSES: Acid reflux, spicy food, lying down after eating, obesity
+HOME_REMEDY: Antacids, khane ke 2-3 ghante baad mat leto, head uthao
+MEDICINE: Antacids (OTC), Omeprazole (doctor se)
+WARNING: Regular heartburn = doctor se milo, esophagus damage possible
+ESCALATE: YES agar seene mein tez dard ho — heart attack rule out karo
+
+DISEASE: Flatulence (Excessive Gas)
+SYMPTOMS: Zyada gas, bloating, discomfort, embarrassment
+CAUSES: Beans, cabbage, carbonated drinks, swallowed air, lactose intolerance
+HOME_REMEDY: Trigger foods avoid karo, slowly khao, ginger tea, ajwain, walk
+MEDICINE: Simethicone, charcoal tablets (doctor se)
+WARNING: Sudden change in bowel habits = doctor se milo
+ESCALATE: NO unless pain ya blood bhi ho
+
+DISEASE: Diarrhea
+SYMPTOMS: Loose/watery stools, baar baar jaana, pet mein cramping, nausea
+CAUSES: Infection, food poisoning, antibiotics, IBS, stress
+HOME_REMEDY: ORS solution, banana, chawal, toast, paani zyada, rest
+MEDICINE: ORS (most important), Loperamide (adult mein, doctor se)
+WARNING: Children mein dehydration jaldi hoti hai
+ESCALATE: YES agar blood ho ya 3 din se zyada ho ya severe dehydration ho
+
+DISEASE: Vomiting
+SYMPTOMS: Pet contents bahar aana, nausea pehle, thakaan, dehydration
+CAUSES: Food poisoning, infections, pregnancy, medicines, motion sickness
+HOME_REMEDY: ORS slowly sip karo, BRAT diet, rest, ginger tea
+MEDICINE: Ondansetron (doctor se), ORS
+WARNING: Dehydration se bachao
+ESCALATE: YES agar blood ho ya 24 ghante se zyada ho
+
+DISEASE: Abdominal Pain
+SYMPTOMS: Pet mein dard, location aur type bimari pe depend karta hai
+CAUSES: Gas, constipation, infection, appendicitis, kidney stones — bahut se causes
+HOME_REMEDY: Location aur type ke hisaab se — warm compress, rest
+MEDICINE: Cause pe depend karta hai — doctor se milo severe mein
+WARNING: Severe achanak dard = EMERGENCY
+ESCALATE: YES agar severe sudden dard ho ya fever ke saath ho
+
+DISEASE: Chest Pain
+SYMPTOMS: Seene mein dard, pressure, tightness, burning
+CAUSES: Heart, lungs, esophagus, muscles — serious se non-serious tak
+HOME_REMEDY: REST KARO, Aspirin agar heart attack suspect ho
+MEDICINE: EMERGENCY ho sakta hai — Doctor ya hospital turant
+WARNING: Seene mein koi bhi dard = doctor rule out karo
+ESCALATE: YES TURANT — seene mein dard ko kabhi ignore mat karo
+
+DISEASE: Shortness of Breath
+SYMPTOMS: Saans lene mein takleef, saans fulna, oxygen ki kami feel hona
+CAUSES: Asthma, heart failure, pneumonia, anxiety, anemia
+HOME_REMEDY: Shaant raho, seedhe baitho, fresh air, anxiety mein slow breathing
+MEDICINE: Cause pe depend karta hai — EMERGENCY ho sakta hai
+WARNING: Achanak breathlessness = EMERGENCY
+ESCALATE: YES agar achanak severe ho ya rest mein bhi ho
+
+DISEASE: Palpitations
+SYMPTOMS: Heartbeat feel hona, racing, irregular, thumping, fluttering
+CAUSES: Caffeine, stress, thyroid, arrhythmia, anemia, dehydration
+HOME_REMEDY: Caffeine avoid, stress management, paani zyada, rest
+MEDICINE: Cause pe depend karta hai, ECG zaroori
+WARNING: Dizziness ya fainting ke saath = EMERGENCY
+ESCALATE: YES agar dizzy ho ya seene mein dard ho
+
+DISEASE: Fainting (Syncope)
+SYMPTOMS: Behosh ho jaana, usually thodi der ke liye, pehle chakkar/blackout
+CAUSES: Low BP, dehydration, heat, heart issues, standing up too fast
+HOME_REMEDY: Lita do, legs uthao, cool jagah le jao, paani do hosh aane pe
+MEDICINE: Cause pe depend, doctor se ECG etc. check karwao
+WARNING: Heart problem rule out karo
+ESCALATE: YES agar baar baar ho ya injury ho
+
+DISEASE: Swollen Lymph Nodes
+SYMPTOMS: Gardan/armpit/groin mein sujan, soft ya hard, dard ya no pain
+CAUSES: Infection (common), rarely cancer
+HOME_REMEDY: Warm compress, rest, infection treat karo
+MEDICINE: Antibiotics agar infection ho (doctor se)
+WARNING: Hard, fixed, painless, 2+ hafte = doctor se zaroor milo
+ESCALATE: YES agar hard, painless, lamba time se ho
+
+DISEASE: Unexplained Weight Loss
+SYMPTOMS: Bina koshish ke wajan kam hona, thakaan, bhookh na lagna
+CAUSES: Diabetes, cancer, thyroid, depression, TB, infection
+HOME_REMEDY: Nutritious khaana, rest — lekin doctor se zaroor milo
+MEDICINE: Cause treat karo (doctor se)
+WARNING: 6 mahine mein 10% wajan ghate = doctor se zaroor milo
+ESCALATE: YES TURANT DOCTOR SE MILO
+
+DISEASE: Frequent Urination
+SYMPTOMS: Baar baar peshab, raat ko bhi uthna, urgency feel hona
+CAUSES: UTI, diabetes, prostate, pregnancy, overactive bladder, diuretics
+HOME_REMEDY: Caffeine avoid, bladder training, kegel exercises
+MEDICINE: Cause pe depend karta hai — doctor se milo
+WARNING: Blood in urine ya pain ke saath = URGENT
+ESCALATE: YES agar blood ho ya pain ho ya achanak badh jaye
+
+DISEASE: Blood in Urine (Hematuria)
+SYMPTOMS: Peshab laal ya pink ya brown, clots possible
+CAUSES: UTI, kidney stones, cancer, injury, medicines
+HOME_REMEDY: Paani zyada piyo — lekin DOCTOR SE ZAROOR MILO
+MEDICINE: Cause pe depend — doctor se diagnosis zaroori
+WARNING: Kabhi ignore mat karo khoon in peshab
+ESCALATE: YES TURANT DOCTOR SE MILO
+
+DISEASE: Blood in Stool
+SYMPTOMS: Potty mein laal khoon ya kala tar jaisi potty
+CAUSES: Piles, fissure, ulcer, colitis, cancer — serious se non-serious tak
+HOME_REMEDY: Fiber zyada, paani zyada, straining avoid — lekin DOCTOR SE MILO
+MEDICINE: Cause pe depend — doctor se zaroor milo
+WARNING: Kala tar potty = upper GI bleeding = EMERGENCY
+ESCALATE: YES TURANT DOCTOR SE MILO
+
+DISEASE: Coughing Blood (Hemoptysis)
+SYMPTOMS: Khansi mein khoon, red ya pink phlegm
+CAUSES: TB, lung cancer, pneumonia, bronchiectasis, blood thinners
+HOME_REMEDY: REST KARO — SEEDHA HOSPITAL JAO
+MEDICINE: Cause pe depend — hospital zarori
+WARNING: Kabhi ignore mat karo
+ESCALATE: YES TURANT HOSPITAL JAO
+
+DISEASE: Vomiting Blood (Hematemesis)
+SYMPTOMS: Ulti mein khoon, bright red ya coffee ground jaisa
+CAUSES: Peptic ulcer, esophageal varices, stomach cancer, injury
+HOME_REMEDY: KUCH MAT KHAO PIYO — TURANT HOSPITAL
+MEDICINE: EMERGENCY TREATMENT
+WARNING: Life threatening ho sakta hai
+ESCALATE: YES TURANT EMERGENCY 108 CALL KARO

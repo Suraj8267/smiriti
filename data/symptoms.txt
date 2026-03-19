@@ -1,0 +1,682 @@
+SYMPTOM: Bukhar (Fever)
+POSSIBLE_CAUSES: Infection (viral/bacterial), dengue, malaria, typhoid, COVID, UTI, pneumonia
+FIRST_AID: Paracetamol, zyada paani, rest, forehead pe thanda kapda
+WHEN_TO_WORRY: 103F se upar, 3 din se zyada, khansi ya saans ki takleef ke saath
+HOME_REMEDY: Tulsi adrak chai, haldi doodh, rest, ORS
+ESCALATE: YES agar 3 din mein theek na ho ya bahut tez ho
+
+SYMPTOM: Tez Sir Dard (Severe Headache)
+POSSIBLE_CAUSES: Migraine, tension, dehydration, BP, sinusitis, meningitis (rare)
+FIRST_AID: Dark room mein rest, paani piyo, paracetamol
+WHEN_TO_WORRY: Sudden thunderclap headache, neck stiffness ke saath, vision change
+HOME_REMEDY: Peppermint oil temples pe, cold compress, dark room
+ESCALATE: YES agar achanak bahut tez ho ya fever ke saath gardan akadne
+
+SYMPTOM: Khansi (Cough)
+POSSIBLE_CAUSES: Cold, flu, asthma, TB, allergy, GERD, bronchitis, COVID
+FIRST_AID: Honey ginger, steam, warm fluids, rest
+WHEN_TO_WORRY: 2 hafte se zyada, blood, saans ki takleef, raat ko bahut zyada
+HOME_REMEDY: Honey + tulsi + ginger tea, steam inhalation, mulethi
+ESCALATE: YES agar blood aaye ya 2 hafte se zyada ho
+
+SYMPTOM: Saans Fulna (Breathlessness)
+POSSIBLE_CAUSES: Asthma, pneumonia, heart failure, anemia, anxiety, COVID
+FIRST_AID: Seedha baithna, fresh air, asthma inhaler agar ho
+WHEN_TO_WORRY: Rest mein bhi ho, lips blue, confusion ke saath
+HOME_REMEDY: Steam, pursed lip breathing, shaant rehna
+ESCALATE: YES — saans ki takleef ko kabhi ignore mat karo
+
+SYMPTOM: Seene Mein Dard (Chest Pain)
+POSSIBLE_CAUSES: Heart attack, angina, GERD, costochondritis, anxiety, pleuritis
+FIRST_AID: Rest karo, Aspirin agar heart issue lage, hospital
+WHEN_TO_WORRY: Hamesha — seene mein dard ko serious lo
+HOME_REMEDY: Antacid agar acidity lage — lekin doctor se confirm karo
+ESCALATE: YES TURANT — seene mein dard = hospital
+
+SYMPTOM: Ulti (Vomiting)
+POSSIBLE_CAUSES: Food poisoning, gastritis, pregnancy, migraine, infection, appendicitis
+FIRST_AID: ORS slowly sip karo, rest, BRAT diet
+WHEN_TO_WORRY: Blood ho, 24 ghante se zyada, severe dehydration
+HOME_REMEDY: Ginger tea, ORS, rest, nothing solid pehle
+ESCALATE: YES agar blood ho ya bahut severe dehydration ho
+
+SYMPTOM: Dast (Diarrhea)
+POSSIBLE_CAUSES: Food poisoning, infection, IBS, antibiotics, stress, cholera
+FIRST_AID: ORS immediately, banana, rest, paani zyada
+WHEN_TO_WORRY: Blood, 3 din se zyada, severe dehydration, children mein
+HOME_REMEDY: ORS, chawal, banana, dahi, jeera paani
+ESCALATE: YES agar blood ho ya dehydration severe ho
+
+SYMPTOM: Pet Dard (Abdominal Pain)
+POSSIBLE_CAUSES: Gas, appendicitis, UTI, kidney stones, gastritis, periods
+FIRST_AID: Location note karo, warm compress, rest
+WHEN_TO_WORRY: Daayein neeche tez dard (appendix), severe, bukhar ke saath
+HOME_REMEDY: Warm compress, fennel tea, ajwain paani
+ESCALATE: YES agar tez achanak dard ho ya fever ke saath ho
+
+SYMPTOM: Chakkar (Dizziness)
+POSSIBLE_CAUSES: Dehydration, low BP, vertigo, anemia, low sugar, inner ear
+FIRST_AID: Baith jao ya let jao, paani piyo, slowly uthna
+WHEN_TO_WORRY: Behoshi ke saath, baar baar, neurological symptoms
+HOME_REMEDY: ORS, glucose, shaant rehna, paani
+ESCALATE: YES agar behoshi ho ya neurological symptoms hon
+
+SYMPTOM: Thakaan (Fatigue)
+POSSIBLE_CAUSES: Anemia, thyroid, diabetes, depression, infection, sleep disorder
+FIRST_AID: Rest, nutrition, hydration
+WHEN_TO_WORRY: Sudden extreme fatigue, unexplained, daily life affect
+HOME_REMEDY: Iron rich food, rest, moringa, ashwagandha, regular sleep
+ESCALATE: YES agar unexplained ho aur persist kare
+
+SYMPTOM: Wajan Kam Hona (Weight Loss)
+POSSIBLE_CAUSES: Diabetes, TB, cancer, depression, thyroid, malabsorption
+FIRST_AID: Doctor se milna zaroori
+WHEN_TO_WORRY: Hamesha — unexplained weight loss = doctor
+HOME_REMEDY: Nutritious khaana, rest — lekin doctor ke paas zaroor jao
+ESCALATE: YES turant doctor se milo
+
+SYMPTOM: Aankhein Peeli (Yellow Eyes)
+POSSIBLE_CAUSES: Jaundice, Hepatitis, liver disease, malaria, sickle cell
+FIRST_AID: Doctor ke paas turant jao, tel wala khaana avoid
+WHEN_TO_WORRY: Hamesha — peeli aankhein = liver ya blood issue
+HOME_REMEDY: Ganne ka ras, coconut water, rest — doctor se zaroor milo
+ESCALATE: YES TURANT DOCTOR SE MILO
+
+SYMPTOM: Skin Rash
+POSSIBLE_CAUSES: Allergy, eczema, chickenpox, measles, dengue, contact dermatitis, drug reaction
+FIRST_AID: Antihistamine, cool compress, trigger avoid karo
+WHEN_TO_WORRY: Spreading quickly, breathing trouble ke saath, painful blisters
+HOME_REMEDY: Calamine lotion, aloe vera, cool compress, antihistamine
+ESCALATE: YES agar breathing trouble ho ya rapidly phail raha ho
+
+SYMPTOM: Joint Dard (Joint Pain)
+POSSIBLE_CAUSES: Arthritis, gout, rheumatoid, chikungunya, lupus, injury
+FIRST_AID: Rest, ice ya warm compress (acute mein ice, chronic mein warm)
+WHEN_TO_WORRY: Sujan, redness, fever ke saath, suddenly bahut tez
+HOME_REMEDY: Haldi doodh, ginger, fish oil, warm compress, gentle exercise
+ESCALATE: YES agar sujan aur fever ho ya multiple joints mein ho
+
+SYMPTOM: Kamar Dard (Back Pain)
+POSSIBLE_CAUSES: Muscle strain, disc, kidney, posture, osteoporosis, fracture
+FIRST_AID: Rest, warm compress, mild painkiller, light movement
+WHEN_TO_WORRY: Leg mein dard/numbness, bladder issues, trauma ke baad, severe
+HOME_REMEDY: Warm compress, yoga, posture correct, massage
+ESCALATE: YES agar leg mein numbness ho ya trauma ke baad ho
+
+SYMPTOM: Gardan Akadna (Neck Stiffness)
+POSSIBLE_CAUSES: Cervical spondylosis, bad posture, meningitis (fever ke saath), muscle strain
+FIRST_AID: Warm compress, gentle stretching
+WHEN_TO_WORRY: Fever + rash + stiffness = meningitis EMERGENCY
+HOME_REMEDY: Warm compress, neck exercises, posture
+ESCALATE: YES TURANT agar fever aur rash ke saath gardan akde
+
+SYMPTOM: Peshab Mein Jalan (Burning Urination)
+POSSIBLE_CAUSES: UTI, STI, kidney stones, dehydration, vaginitis
+FIRST_AID: Paani bahut zyada, cranberry juice, doctor se
+WHEN_TO_WORRY: Blood, fever, kamar dard ke saath
+HOME_REMEDY: Paani zyada, cranberry, dhaniya paani, barley water
+ESCALATE: YES agar blood ho ya kamar dard ke saath ho
+
+SYMPTOM: Baar Baar Peshab (Frequent Urination)
+POSSIBLE_CAUSES: Diabetes, UTI, prostate, overactive bladder, pregnancy, diuretics
+FIRST_AID: Fluid intake moderate, bladder diary rakho
+WHEN_TO_WORRY: Blood, pain, raat mein zyada, achanak increase
+HOME_REMEDY: Bladder training, caffeine avoid, kegel exercises
+ESCALATE: YES agar blood ho ya sudden badh jaaye
+
+SYMPTOM: Baal Jhadna (Hair Fall)
+POSSIBLE_CAUSES: Iron deficiency, thyroid, stress, PCOS, scalp infection, genetics
+FIRST_AID: Blood test karo — thyroid, iron, B12 check karo
+WHEN_TO_WORRY: Achanak bahut zyada, bald patches, eyebrows bhi
+HOME_REMEDY: Onion juice, bhringraj oil, amla, protein zyada khao
+ESCALATE: YES agar bald patches hon ya achanak bahut zyada ho
+
+SYMPTOM: Mooh Mein Chale (Mouth Ulcers)
+POSSIBLE_CAUSES: Vitamin B12/Iron deficiency, stress, injury, viral
+FIRST_AID: Salt water gargle, honey, topical gel
+WHEN_TO_WORRY: 2 hafte se zyada, large, non-healing
+HOME_REMEDY: Salt water gargle, honey, aloe vera, Vitamin B12
+ESCALATE: YES agar 2 hafte mein theek na ho
+
+SYMPTOM: Soojan Aankh (Eye Swelling)
+POSSIBLE_CAUSES: Conjunctivitis, allergy, stye, cellulitis, injury
+FIRST_AID: Clean warm water se dhoo, rose water, doctor se
+WHEN_TO_WORRY: Vision affect ho, severe pain, spreading
+HOME_REMEDY: Rose water, warm compress (stye), clean saaf rakhna
+ESCALATE: YES agar vision affect ho
+
+SYMPTOM: Naak Behna (Runny Nose)
+POSSIBLE_CAUSES: Cold, allergy, sinusitis, flu, environmental irritants
+FIRST_AID: Steam, saline nasal spray, rest
+WHEN_TO_WORRY: Ek taraf se only, blood, 10 din se zyada
+HOME_REMEDY: Steam inhalation, tulsi chai, haldi doodh, neti pot
+ESCALATE: YES agar ek taraf se blood ya pus aaye
+
+SYMPTOM: Gale Mein Kharash (Sore Throat)
+POSSIBLE_CAUSES: Viral infection, streptococcal, tonsillitis, GERD, diphtheria
+FIRST_AID: Salt water gargle, warm fluids, rest
+WHEN_TO_WORRY: Swallowing bahut mushkil, drooling, white patches, high fever
+HOME_REMEDY: Salt water gargle, honey ginger tea, warm salt milk gargle
+ESCALATE: YES agar swallowing mushkil ho ya high fever ho
+
+SYMPTOM: Kan Mein Dard (Ear Pain)
+POSSIBLE_CAUSES: Ear infection, swimmer's ear, TMJ, referred pain from throat
+FIRST_AID: Warm compress, pain killers, doctor se
+WHEN_TO_WORRY: Discharge, hearing loss, severe, fever ke saath
+HOME_REMEDY: Warm compress, garlic oil (external), rest
+ESCALATE: YES agar discharge ho ya hearing loss ho
+
+SYMPTOM: Aankhein Laal (Red Eyes)
+POSSIBLE_CAUSES: Conjunctivitis, allergy, dry eyes, subconjunctival hemorrhage, glaucoma
+FIRST_AID: Clean, rose water, antihistamine agar allergy
+WHEN_TO_WORRY: Severe pain, vision change, discharge with discharge
+HOME_REMEDY: Rose water, cool compress, antihistamine
+ESCALATE: YES agar vision affect ho ya severe pain ho
+
+SYMPTOM: Haath Paon Sujan (Swollen Hands/Feet)
+POSSIBLE_CAUSES: Injury, heart failure, kidney disease, pregnancy, DVT, lymphedema
+FIRST_AID: Elevate legs, reduce salt, doctor se agar sudden
+WHEN_TO_WORRY: Achanak, ek taraf, breathing ke saath, pregnancy mein
+HOME_REMEDY: Legs elevate, salt reduce, compression stockings
+ESCALATE: YES agar achanak ho ya pregnancy mein ho
+
+SYMPTOM: Numbness/Tingling (Sannata)
+POSSIBLE_CAUSES: Sitting zyada, carpal tunnel, diabetes, B12 deficiency, cervical
+FIRST_AID: Position change karo, move karo, stretch
+WHEN_TO_WORRY: Persistently, weakness ke saath, face mein bhi
+HOME_REMEDY: Movement, B12 supplements, position change, stretching
+ESCALATE: YES agar suddenly half body mein ho — stroke ho sakta hai
+
+SYMPTOM: Muscle Weakness (Kamzori)
+POSSIBLE_CAUSES: Electrolyte imbalance, myasthenia gravis, stroke, dehydration, thyroid
+FIRST_AID: ORS, rest, doctor se agar achanak
+WHEN_TO_WORRY: Sudden, progressive, one-sided, breathing muscles
+HOME_REMEDY: Electrolytes, rest, nutrition — doctor se zaroor milo
+ESCALATE: YES agar achanak ho ya breathing affect ho
+
+SYMPTOM: Anxiety/Panic Attack
+POSSIBLE_CAUSES: Anxiety disorder, stress, thyroid, caffeine, certain medicines
+FIRST_AID: Deep breathing (4-7-8), grounding (5 senses), shaant rehna
+WHEN_TO_WORRY: First time, chest pain, physical cause rule out karo
+HOME_REMEDY: Deep breathing, grounding, cold water, dark room
+ESCALATE: YES agar physical symptoms like chest pain ya breathing issue ho
+
+SYMPTOM: Trembling/Kaanpna (Tremors)
+POSSIBLE_CAUSES: Cold, fear, low sugar, Parkinson's, thyroid, caffeine, alcohol withdrawal
+FIRST_AID: Warm environment, glucose, doctor se
+WHEN_TO_WORRY: Resting tremors, progressive, daily life affect
+HOME_REMEDY: Glucose, warm, rest — doctor se underlying cause check
+ESCALATE: YES agar persistent ho ya other neurological symptoms hon
+
+SYMPTOM: Memory Problems
+POSSIBLE_CAUSES: Stress, depression, sleep deprivation, B12 deficiency, thyroid, dementia
+FIRST_AID: Sleep, stress management, B12 check, doctor se agar serious
+WHEN_TO_WORRY: Achanak, daily life affect, personality change
+HOME_REMEDY: Sleep, exercise, brahmi, mental activities, omega-3
+ESCALATE: YES agar achanak ho ya daily life seriously affect ho
+
+SYMPTOM: Confusion/Disorientation
+POSSIBLE_CAUSES: High fever, dehydration, low sugar, stroke, meningitis, medicines
+FIRST_AID: Safe environment, paani/glucose, temperature check, EMERGENCY ho sakta hai
+WHEN_TO_WORRY: Hamesha concern karo — achanak confusion = EMERGENCY
+HOME_REMEDY: EMERGENCY HAI — doctor ya hospital turant
+ESCALATE: YES TURANT — confusion serious sign hai
+
+SYMPTOM: Unconsciousness/Behoshi
+POSSIBLE_CAUSES: Low BP, low sugar, stroke, cardiac event, dehydration, head injury
+FIRST_AID: Recovery position mein rakho, airway check, 108 call karo
+WHEN_TO_WORRY: Hamesha EMERGENCY
+HOME_REMEDY: EMERGENCY — 108 call karo turant
+ESCALATE: YES TURANT EMERGENCY 108
+
+SYMPTOM: Convulsions/Seizures
+POSSIBLE_CAUSES: Epilepsy, high fever (febrile seizures), meningitis, electrolyte imbalance
+FIRST_AID: Safe rakho, kuch mooh mein MAT daalo, time note karo, 5 min se zyada toh 108
+HOME_REMEDY: EMERGENCY — hospital zaroori
+ESCALATE: YES TURANT agar 5 min se zyada ho
+
+SYMPTOM: Sudden Paralysis
+POSSIBLE_CAUSES: Stroke, Bell's palsy, spinal cord injury, severe electrolyte issue
+FIRST_AID: FAST test (Face, Arms, Speech, Time), TURANT 108
+HOME_REMEDY: EMERGENCY — stroke ho sakta hai
+ESCALATE: YES TURANT EMERGENCY 108
+
+SYMPTOM: Difficulty Swallowing (Dysphagia)
+POSSIBLE_CAUSES: Tonsillitis, epiglottitis, esophageal problem, stroke, thyroid
+FIRST_AID: Soft liquid food, doctor se
+WHEN_TO_WORRY: Breathing affected, weight loss, progressive
+HOME_REMEDY: Soft warm liquids — lekin doctor se zaroor milo
+ESCALATE: YES agar breathing affect ho ya progressive ho
+
+SYMPTOM: Skin Jaundice (Peeli Twacha)
+POSSIBLE_CAUSES: Liver disease, hepatitis, hemolytic anemia, bile duct obstruction
+FIRST_AID: Doctor ke paas turant, oil aur tel avoid
+HOME_REMEDY: Ganne ka ras, light diet — doctor ke paas ZAROOR JAO
+ESCALATE: YES TURANT DOCTOR SE MILO
+
+SYMPTOM: High Blood Pressure Symptoms
+POSSIBLE_CAUSES: Essential hypertension, kidney disease, thyroid, stress
+FIRST_AID: Shaant raho, sit down, medicines lo agar prescribed
+WHEN_TO_WORRY: BP 180/120 se upar (hypertensive crisis)
+HOME_REMEDY: Garlic, hibiscus tea, deep breathing, salt avoid
+ESCALATE: YES agar BP 180/120 se upar ho ya symptoms like headache/vision change hon
+
+SYMPTOM: Low Blood Sugar (Hypoglycemia)
+POSSIBLE_CAUSES: Diabetic medicines, skipped meal, alcohol, excessive exercise
+FIRST_AID: Glucose immediately — 15g fast carbs (glucose tablets, juice, sugar)
+WHEN_TO_WORRY: Unconscious ho jaye, baar baar ho
+HOME_REMEDY: Immediate glucose source, pehle khaana khao
+ESCALATE: YES agar unconscious ho jaye
+
+SYMPTOM: Pale Skin (Pandu Twacha)
+POSSIBLE_CAUSES: Anemia, blood loss, shock, low BP, liver issues
+FIRST_AID: Rest, iron rich food, doctor se check
+WHEN_TO_WORRY: Achanak, weakness ke saath, faint feeling
+HOME_REMEDY: Palak, chukander, anar, iron rich food, doctor se blood test
+ESCALATE: YES agar achanak ho ya heart palpitations ke saath ho
+
+SYMPTOM: Dark Urine
+POSSIBLE_CAUSES: Dehydration, jaundice, hepatitis, kidney, certain medicines, myoglobin
+FIRST_AID: Paani zyada piyo, doctor se agar persist kare
+WHEN_TO_WORRY: Cola colored (dark brown), blood ke saath, jaundice ke saath
+HOME_REMEDY: Paani bahut zyada — doctor se zaroor milo
+ESCALATE: YES agar jaundice ke saath ho ya blood ho
+
+SYMPTOM: Frequent Headaches
+POSSIBLE_CAUSES: Tension headache, migraine, hypertension, dehydration, eye strain, cervical
+FIRST_AID: Paani, rest, paracetamol, screen break
+WHEN_TO_WORRY: Daily, thunderclap, waking you up, progressive
+HOME_REMEDY: Peppermint oil, paani, dark room, neck stretches
+ESCALATE: YES agar roz ho ya pattern change ho ya thunderclap ho
+
+SYMPTOM: Night Fever (Raat Ko Bukhar)
+POSSIBLE_CAUSES: TB, lymphoma, HIV, endocarditis, drug reaction, malaria
+FIRST_AID: Paracetamol, paani, doctor se agar persist kare
+WHEN_TO_WORRY: Weight loss ke saath, raat ko paseena, weeks tak
+HOME_REMEDY: Tulsi chai, paracetamol — doctor se zaroor milo
+ESCALATE: YES agar weight loss aur paseena ke saath ho
+
+SYMPTOM: Bloated Stomach
+POSSIBLE_CAUSES: Gas, constipation, overeating, IBS, ascites (liver), food intolerance
+FIRST_AID: Walk karo, ajwain paani, gas causing foods avoid
+WHEN_TO_WORRY: Sudden severe, hard abdomen, weight loss ke saath
+HOME_REMEDY: Ajwain, jeera, saunf, warm compress, walk
+ESCALATE: YES agar hard abdomen ho ya sudden severe ho
+
+SYMPTOM: Itching All Over (Poore Body Mein Khujli)
+POSSIBLE_CAUSES: Allergy, eczema, liver disease, kidney disease, diabetes, skin infection
+FIRST_AID: Antihistamine, cool bath, moisturizer, trigger avoid
+WHEN_TO_WORRY: No rash + itching (internal cause), jaundice ke saath
+HOME_REMEDY: Oatmeal bath, antihistamine, aloe vera, cool compress
+ESCALATE: YES agar no rash ke saath ho (internal cause) ya jaundice ke saath
+
+SYMPTOM: Excessive Thirst (Zyada Pyaas)
+POSSIBLE_CAUSES: Diabetes, dehydration, diabetes insipidus, salt intake zyada, lithium
+FIRST_AID: Paani piyo, sugar test karo
+WHEN_TO_WORRY: Frequent urination ke saath, unexplained weight loss
+HOME_REMEDY: Paani zyada, sugar avoid — lekin blood sugar test karwao
+ESCALATE: YES agar frequent urination aur weight loss ke saath ho
+
+SYMPTOM: Dry Cough (Sukhi Khansi)
+POSSIBLE_CAUSES: Asthma, GERD, ACE inhibitors, allergies, early TB, COVID
+FIRST_AID: Steam, honey, warm water, trigger avoid
+WHEN_TO_WORRY: Weeks tak, raat ko, exercise pe worse, blood
+HOME_REMEDY: Honey + warm water, steam, tulsi tea
+ESCALATE: YES agar 3 hafte se zyada ho
+
+SYMPTOM: Productive Cough (Balgam Wali Khansi)
+POSSIBLE_CAUSES: Bronchitis, pneumonia, TB, COPD, sinusitis
+FIRST_AID: Steam, expectorants, doctor se
+WHEN_TO_WORRY: Green/yellow balgam, blood, saans ki takleef
+HOME_REMEDY: Steam, tulsi ginger honey, haldi doodh
+ESCALATE: YES agar blood ho ya breathing affect ho
+
+SYMPTOM: Runny Nose with Yellow Discharge
+POSSIBLE_CAUSES: Bacterial sinusitis, nasal polyps
+FIRST_AID: Steam, saline rinse, doctor se antibiotics agar bacterial
+WHEN_TO_WORRY: 10 din se zyada, fever ke saath, facial pain
+HOME_REMEDY: Steam, neti pot, haldi, warm fluids
+ESCALATE: YES agar 10 din se zyada ho ya bahut fever ho
+
+SYMPTOM: Skin Darkening (Kala Hona)
+POSSIBLE_CAUSES: Addison's disease, PCOS, insulin resistance, liver disease, sun damage
+FIRST_AID: Doctor se underlying cause check
+WHEN_TO_WORRY: Achanak darken, specific areas (neck, armpits), symptoms ke saath
+HOME_REMEDY: Sunscreen, haldi pack, vitamin C serum
+ESCALATE: YES agar achanak ho ya specific pattern mein ho (acanthosis nigricans)
+
+SYMPTOM: Tongue Issues
+POSSIBLE_CAUSES: Vitamin deficiencies, infection, allergy, systemic disease, oral cancer
+FIRST_AID: Oral hygiene, salt water, doctor se persistent
+WHEN_TO_WORRY: Non-healing sores, white/red patches, 2 hafte se zyada
+HOME_REMEDY: Salt water gargle, vitamin B12, good oral hygiene
+ESCALATE: YES agar non-healing patches hon
+
+SYMPTOM: Palpitations (Heartbeat Feel Karna)
+POSSIBLE_CAUSES: Anxiety, caffeine, thyroid, arrhythmia, anemia, dehydration
+FIRST_AID: Sit down, paani piyo, caffeine avoid, calm
+WHEN_TO_WORRY: Chest pain ke saath, dizziness, irregular, achanak
+HOME_REMEDY: Paani, magnesium rich food, caffeine avoid, deep breathing
+ESCALATE: YES agar chest pain ya dizziness ke saath ho
+
+SYMPTOM: Leg Cramps at Night
+POSSIBLE_CAUSES: Dehydration, electrolyte imbalance, magnesium deficiency, poor circulation, pregnancy
+FIRST_AID: Stretch the muscle, warm compress, stand up slowly
+HOME_REMEDY: Magnesium rich food, paani zyada, banana (potassium), calf stretches
+ESCALATE: NO agar occasional, YES agar severe aur frequent ho
+
+SYMPTOM: Cold Hands and Feet
+POSSIBLE_CAUSES: Poor circulation, Raynaud's phenomenon, thyroid, anemia, smoking
+FIRST_AID: Warm karo, gloves/socks, move karo
+HOME_REMEDY: Exercise, warm doodh, ginger tea, layered kapde
+ESCALATE: YES agar skin color change (blue/white) ho ya ulcers hon
+
+SYMPTOM: Excessive Sweating During Sleep
+POSSIBLE_CAUSES: Menopause, TB, HIV, cancer (lymphoma), anxiety, medicines
+FIRST_AID: Cool room, cotton bedding, paani peeyo
+WHEN_TO_WORRY: Weight loss ke saath, fever ke saath, unexplained
+HOME_REMEDY: Cool room, cotton bedding, sage tea, stress management
+ESCALATE: YES agar weight loss aur thakaan ke saath ho
+
+SYMPTOM: Persistent Hiccups
+POSSIBLE_CAUSES: GERD, central nervous system issues, metabolic disorders, medicines
+FIRST_AID: Breath hold, paani peeyo, sugar khao
+WHEN_TO_WORRY: 48 ghante se zyada
+HOME_REMEDY: Breath holding, paani, slight fright, sugar
+ESCALATE: YES agar 48 ghante se zyada ho
+
+SYMPTOM: Metallic Taste in Mouth
+POSSIBLE_CAUSES: Medicines, kidney disease, liver disease, pregnancy, neurological, vitamin deficiency
+FIRST_AID: Oral hygiene, doctor se
+HOME_REMEDY: Citrus foods, good oral hygiene
+ESCALATE: YES agar kidney ya liver symptoms ke saath ho
+
+SYMPTOM: Snoring (Kharrate)
+POSSIBLE_CAUSES: Obesity, sleep apnea, nasal congestion, alcohol, anatomy
+FIRST_AID: Side pe so, wajan kam karo, alcohol avoid
+HOME_REMEDY: Side sleeping, head uthao, nasal strips, wajan kam karo
+ESCALATE: YES agar daytime sleepiness bahut ho ya gasping episodes hon
+
+SYMPTOM: Excessive Drooling
+POSSIBLE_CAUSES: Neurological (Parkinson's, stroke), medicines, pregnancy, teething
+FIRST_AID: Doctor se underlying cause
+HOME_REMEDY: Chewy foods, facial exercises
+ESCALATE: YES agar sudden onset ho ya neurological symptoms ke saath ho
+
+SYMPTOM: Difficulty Breathing While Lying Down (Orthopnea)
+POSSIBLE_CAUSES: Heart failure, asthma, COPD, obesity
+FIRST_AID: Propped up position, fresh air, doctor se
+HOME_REMEDY: Extra pillows, propped position — DOCTOR SE ZAROOR MILO
+ESCALATE: YES — orthopnea serious cardiac symptom ho sakta hai
+
+SYMPTOM: Ankle Swelling
+POSSIBLE_CAUSES: Heart failure, kidney disease, liver, venous insufficiency, pregnancy, medicines
+FIRST_AID: Legs elevate, salt reduce, walk karo
+WHEN_TO_WORRY: Sudden, one-sided, with breathing trouble
+HOME_REMEDY: Elevate legs, salt reduce, compression stockings
+ESCALATE: YES agar sudden ya ek taraf ya breathing trouble ke saath ho
+
+SYMPTOM: Frequent Falls
+POSSIBLE_CAUSES: Balance problems, vertigo, weakness, vision, Parkinson's, alcohol, medicines
+FIRST_AID: Safe environment, doctor se
+HOME_REMEDY: Balance exercises, home safety, vitamin D, footwear check
+ESCALATE: YES agar head injury ho ya baar baar ho
+
+SYMPTOM: Skin Turning Blue (Cyanosis)
+POSSIBLE_CAUSES: Low oxygen, heart failure, respiratory failure, cold
+FIRST_AID: EMERGENCY — 108 call karo
+HOME_REMEDY: EMERGENCY — hospital turant
+ESCALATE: YES TURANT EMERGENCY
+
+SYMPTOM: Blood Coughing
+POSSIBLE_CAUSES: TB, lung cancer, pneumonia, pulmonary embolism, bronchiectasis
+FIRST_AID: Rest, doctor ke paas turant
+HOME_REMEDY: REST — TURANT DOCTOR YA HOSPITAL
+ESCALATE: YES TURANT DOCTOR SE MILO
+
+SYMPTOM: Sudden Vision Loss
+POSSIBLE_CAUSES: Stroke, retinal detachment, glaucoma, TIA, severe hypertension
+FIRST_AID: EMERGENCY — hospital turant
+HOME_REMEDY: EMERGENCY
+ESCALATE: YES TURANT EMERGENCY 108
+
+SYMPTOM: Sudden Hearing Loss
+POSSIBLE_CAUSES: Viral infection, noise trauma, vascular event, Meniere's
+FIRST_AID: Doctor ke paas turant — window of treatment hai
+HOME_REMEDY: Doctor turant — 72 ghante mein treatment important
+ESCALATE: YES TURANT EAR SPECIALIST SE MILO
+
+SYMPTOM: Difficulty Speaking (Dysarthria)
+POSSIBLE_CAUSES: Stroke, TIA, Bell's palsy, motor neuron disease, intoxication
+FIRST_AID: FAST test — agar stroke suspect ho, 108
+HOME_REMEDY: EMERGENCY agar sudden onset
+ESCALATE: YES TURANT agar achanak ho — stroke sign
+
+SYMPTOM: Loss of Smell (Anosmia)
+POSSIBLE_CAUSES: COVID, cold, sinusitis, nasal polyps, head injury, zinc deficiency
+FIRST_AID: Doctor se, zinc supplements try karo
+HOME_REMEDY: Smell training (different oils), zinc, vitamin A
+ESCALATE: YES agar head injury ke baad ho ya other neurological symptoms hon
+
+SYMPTOM: Loss of Taste
+POSSIBLE_CAUSES: COVID, zinc deficiency, smoking, nasal congestion, nerve damage
+FIRST_AID: Zinc supplements, doctor se
+HOME_REMEDY: Zinc rich food, nasal clearing, taste training
+ESCALATE: YES agar persistent ho ya neurological symptoms ke saath ho
+
+SYMPTOM: Excessive Hunger
+POSSIBLE_CAUSES: Diabetes, hyperthyroidism, anxiety, parasites, certain medicines, pregnancy
+FIRST_AID: Blood sugar check, balanced meals
+HOME_REMEDY: Protein zyada khao, blood sugar check karo
+ESCALATE: YES agar weight loss ke saath ho ya sudden onset ho
+
+SYMPTOM: Difficulty Concentrating (Concentration Nahi)
+POSSIBLE_CAUSES: Sleep deprivation, stress, anxiety, depression, ADHD, thyroid, anemia
+FIRST_AID: Sleep improve karo, stress manage karo
+HOME_REMEDY: Brahmi, shankhpushpi, regular sleep, exercise, omega-3
+ESCALATE: YES agar daily life severely affect ho ya achanak badh jaaye
+
+SYMPTOM: Swollen Gums (Gum Swelling)
+POSSIBLE_CAUSES: Gingivitis, periodontitis, vitamin C deficiency, abscess, hormonal
+FIRST_AID: Salt water gargle, dental hygiene, dentist se
+HOME_REMEDY: Salt water gargle, clove oil, Vitamin C zyada
+ESCALATE: YES agar dental abscess ho ya fever ke saath ho
+
+SYMPTOM: Breast Pain
+POSSIBLE_CAUSES: Hormonal (cyclic), mastitis, injury, fibrocystic, rarely cancer
+FIRST_AID: Supportive bra, warm/cold compress, period ke relation note karo
+HOME_REMEDY: Evening primrose oil, warm compress, caffeine reduce karo
+ESCALATE: YES agar lump ke saath ho ya non-cyclic pain ho
+
+SYMPTOM: Nipple Discharge
+POSSIBLE_CAUSES: Hormonal, prolactinoma, certain medicines, cancer (rare), mastitis
+FIRST_AID: Doctor se zaroor milo
+HOME_REMEDY: Doctor se zaroor milo — self diagnose mat karo
+ESCALATE: YES TURANT DOCTOR SE MILO
+
+SYMPTOM: Pelvic Pain (Women)
+POSSIBLE_CAUSES: Periods, ovarian cyst, endometriosis, PID, ectopic pregnancy, fibroids
+FIRST_AID: Warm compress, ibuprofen, rest
+WHEN_TO_WORRY: Achanak severe, pregnancy mein, fever ke saath, shoulder dard
+HOME_REMEDY: Warm compress, periods mein normal hot water bag
+ESCALATE: YES agar pregnancy mein ho ya sudden severe ho ya fever ke saath ho
+
+SYMPTOM: Irregular Periods
+POSSIBLE_CAUSES: PCOS, thyroid, stress, extreme weight change, perimenopause, pregnancy
+FIRST_AID: Stress manage karo, doctor se
+HOME_REMEDY: Stress management, exercise, shatavari, regular sleep, healthy weight
+ESCALATE: YES agar bahut irregular ho ya heavy bleeding ho ya pregnancy test karo agar late ho
+
+SYMPTOM: Heavy Periods (Menorrhagia)
+POSSIBLE_CAUSES: Fibroids, polyps, hormonal imbalance, thyroid, bleeding disorder, IUD
+FIRST_AID: Iron supplements agar anemia, doctor se
+HOME_REMEDY: Iron rich food, cold compress, rest
+ESCALATE: YES agar bahut heavy ho (soaking pad hourly) ya anemia ho
+
+SYMPTOM: Painful Periods (Dysmenorrhea)
+POSSIBLE_CAUSES: Primary (normal), endometriosis (severe), fibroids, PID
+FIRST_AID: Ibuprofen, warm compress, rest
+HOME_REMEDY: Warm compress, ginger tea, shatavari, exercise
+ESCALATE: YES agar bahut severe ho aur daily life affect kare — endometriosis rule out karo
+
+SYMPTOM: Vaginal Discharge (Abnormal)
+POSSIBLE_CAUSES: BV, yeast infection, STI, cervicitis, foreign body
+FIRST_AID: Doctor se milo, self-treat mat karo
+HOME_REMEDY: Probiotics, doctor se — self-treat mat karo
+ESCALATE: YES doctor se zaroor milo
+
+SYMPTOM: Erectile Dysfunction
+POSSIBLE_CAUSES: Diabetes, BP, medicines, psychological, vascular, hormonal, smoking
+FIRST_AID: Lifestyle change, doctor se
+HOME_REMEDY: Exercise, weight loss, stress management, smoking quit, ashwagandha
+ESCALATE: YES doctor se milo — underlying cardiovascular disease ka sign ho sakta hai
+
+SYMPTOM: Low Libido
+POSSIBLE_CAUSES: Stress, depression, hormonal, medicines, relationship issues, thyroid
+FIRST_AID: Stress management, doctor se
+HOME_REMEDY: Exercise, stress management, shilajit, safed musli (men), shatavari (women)
+ESCALATE: YES agar sudden onset ho ya other symptoms hon
+
+SYMPTOM: Testicular Pain
+POSSIBLE_CAUSES: Epididymitis, orchitis, torsion (EMERGENCY), hernia, varicocele
+FIRST_AID: REST — TURANT DOCTOR, testicular torsion EMERGENCY hai
+HOME_REMEDY: DOCTOR SE ZAROOR MILO — torsion life of testicle ke liye emergency
+ESCALATE: YES TURANT agar sudden severe pain ho — testicular torsion emergency hai
+
+SYMPTOM: Prostate Issues
+POSSIBLE_CAUSES: BPH, prostatitis, prostate cancer
+FIRST_AID: Doctor se milo, PSA test
+HOME_REMEDY: Pumpkin seeds, saw palmetto, exercise, alcohol avoid
+ESCALATE: YES 50+ saal ke bad regular PSA test karo
+
+SYMPTOM: Skin Tags
+POSSIBLE_CAUSES: Friction, diabetes, obesity, hormonal, genetics
+FIRST_AID: Doctor se milo if concerned
+HOME_REMEDY: Tea tree oil, apple cider vinegar — lekin doctor se milo
+ESCALATE: NO agar simple tag hai, YES agar suddenly change kare ya bahut zyada hon
+
+SYMPTOM: Warts
+POSSIBLE_CAUSES: HPV virus, skin contact
+FIRST_AID: Salicylic acid, freezing
+HOME_REMEDY: Apple cider vinegar, banana peel, patience — they resolve themselves
+ESCALATE: YES agar face/genitals pe hon ya bahut zyada phail rahe hon
+
+SYMPTOM: Mole Changes (Til Ka Badalna)
+POSSIBLE_CAUSES: Benign growth, melanoma (skin cancer)
+FIRST_AID: DOCTOR SE ZAROOR MILO — ABCDE check
+HOME_REMEDY: Sunscreen use karo — lekin DOCTOR SE MILO
+ESCALATE: YES TURANT DOCTOR SE MILO agar mole change kare
+
+SYMPTOM: Fingernail Changes
+POSSIBLE_CAUSES: Fungal infection, psoriasis, thyroid, anemia, heart/lung disease
+FIRST_AID: Doctor se underlying cause
+HOME_REMEDY: Nails dry rakho, tea tree oil fungal ke liye
+ESCALATE: YES agar clubbing ho ya significant color change ho
+
+SYMPTOM: Hair Texture Change
+POSSIBLE_CAUSES: Thyroid, protein deficiency, chemical damage, vitamin deficiency
+FIRST_AID: Blood test karo, doctor se
+HOME_REMEDY: Protein rich food, vitamin supplements, gentle hair care
+ESCALATE: YES agar thyroid symptoms ke saath ho
+
+SYMPTOM: Rectal Pain
+POSSIBLE_CAUSES: Piles, fissure, abscess, proctalgia, colorectal cancer
+FIRST_AID: Warm sitz bath, fiber zyada, strain nahi
+HOME_REMEDY: Sitz bath, fiber, paani zyada, avoid straining
+ESCALATE: YES agar bleeding ho ya severe pain ho
+
+SYMPTOM: Blood in Rectal Area
+POSSIBLE_CAUSES: Piles, fissure, polyps, colorectal cancer, colitis, angiodysplasia
+FIRST_AID: DOCTOR SE ZAROOR MILO — kabhi ignore nahi
+HOME_REMEDY: DOCTOR SE MILO — self diagnose nahi
+ESCALATE: YES TURANT DOCTOR SE MILO
+
+SYMPTOM: Grinding Teeth at Night
+POSSIBLE_CAUSES: Stress, anxiety, sleep apnea, caffeine, misaligned bite
+FIRST_AID: Stress management, dentist se night guard
+HOME_REMEDY: Stress management, jaw exercises, chamomile tea before bed
+ESCALATE: YES dentist se milo agar jaw pain ya teeth damage ho
+
+SYMPTOM: Sneezing Fits
+POSSIBLE_CAUSES: Allergy, rhinitis, cold, foreign body, bright light
+FIRST_AID: Antihistamine, trigger avoid, saline wash
+HOME_REMEDY: Antihistamine, trigger avoid, neti pot
+ESCALATE: NO usually, YES agar high fever ke saath ho
+
+SYMPTOM: Lump in Neck
+POSSIBLE_CAUSES: Lymph node swelling, thyroid nodule, cyst, lipoma, cancer
+FIRST_AID: Doctor se zaroor milo
+HOME_REMEDY: Doctor se zaroor milo — self diagnose nahi
+ESCALATE: YES DOCTOR SE ZAROOR MILO — especially agar hard, painless, growing ho
+
+SYMPTOM: Lump Anywhere in Body
+POSSIBLE_CAUSES: Cyst, lipoma, lymph node, hernia, cancer, abscess
+FIRST_AID: Doctor se zaroor milo
+HOME_REMEDY: Doctor se zaroor milo
+ESCALATE: YES agar hard, painless, growing, non-tender ho
+
+SYMPTOM: Cold Sensitivity
+POSSIBLE_CAUSES: Hypothyroidism, anemia, Raynaud's, malnutrition, low body fat
+FIRST_AID: Warm kapde, doctor se
+HOME_REMEDY: Iron rich food, thyroid check, ginger tea, layered clothing
+ESCALATE: YES agar thyroid ya anemia symptoms ke saath ho
+
+SYMPTOM: Heat Sensitivity
+POSSIBLE_CAUSES: Hyperthyroidism, menopause, MS, fever, medications
+FIRST_AID: Cool environment, hydration, doctor se
+HOME_REMEDY: Cool environment, khus water, cotton kapde
+ESCALATE: YES agar other thyroid ya neurological symptoms hon
+
+SYMPTOM: Frequent Infections
+POSSIBLE_CAUSES: Immune deficiency, HIV, diabetes, malnutrition, stress, chemotherapy
+FIRST_AID: Doctor se immune workup
+HOME_REMEDY: Nutrition improve karo, sleep, stress management, vitamin C
+ESCALATE: YES agar unusual ya severe infections hon
+
+SYMPTOM: Delayed Healing of Wounds
+POSSIBLE_CAUSES: Diabetes, poor circulation, malnutrition, zinc deficiency, steroids
+FIRST_AID: Blood sugar check, wound care, doctor se
+HOME_REMEDY: Zinc, Vitamin C, protein rich food, blood sugar control
+ESCALATE: YES agar diabetic wound ho ya infection ke signs hon
+
+SYMPTOM: Increased Sensitivity to Pain
+POSSIBLE_CAUSES: Fibromyalgia, neuropathy, inflammation, central sensitization
+FIRST_AID: Doctor se diagnosis
+HOME_REMEDY: Stress management, gentle exercise, sleep, magnesium
+ESCALATE: YES specialist se milo
+
+SYMPTOM: Jaw Pain (TMJ)
+POSSIBLE_CAUSES: TMJ disorder, teeth grinding, arthritis, stress, misalignment
+FIRST_AID: Warm/cold compress, jaw rest, soft food
+HOME_REMEDY: Warm compress, jaw exercises, stress management
+ESCALATE: YES agar bahut severe ho ya ear problems ke saath ho
+
+SYMPTOM: Rib Pain
+POSSIBLE_CAUSES: Costochondritis, fracture, pleuritis, injury, referred cardiac pain
+FIRST_AID: Pain killers, rest — cardiac rule out karo
+HOME_REMEDY: Rest, warm compress — cardiac rule out karo
+ESCALATE: YES agar breathing ke saath worse ho ya cardiac symptoms hon
+
+SYMPTOM: Shoulder Pain
+POSSIBLE_CAUSES: Frozen shoulder, rotator cuff, bursitis, referred cardiac, cervical
+FIRST_AID: Rest, ice initially, then warm, gentle movement
+HOME_REMEDY: Warm compress, physiotherapy, gentle exercises
+ESCALATE: YES agar left shoulder + chest pain ho (cardiac) ya nahi hilaye
+
+SYMPTOM: Knee Pain
+POSSIBLE_CAUSES: Osteoarthritis, ligament injury, meniscus tear, gout, bursitis
+FIRST_AID: RICE (Rest, Ice, Compression, Elevation), painkiller
+HOME_REMEDY: RICE, haldi doodh, physiotherapy, wajan control
+ESCALATE: YES agar locked ho jaye ya swollen + red ho
+
+SYMPTOM: Hip Pain
+POSSIBLE_CAUSES: Osteoarthritis, bursitis, fracture, referred back pain, avascular necrosis
+FIRST_AID: Rest, pain killers, X-ray check
+HOME_REMEDY: Warm compress, gentle stretching, wajan control
+ESCALATE: YES agar fracture suspect ho ya weight bearing mushkil ho
+
+SYMPTOM: Foot Pain
+POSSIBLE_CAUSES: Plantar fasciitis, gout, fracture, neuropathy, flat feet
+FIRST_AID: Rest, ice, proper footwear
+HOME_REMEDY: Ice massage, arch support, stretching exercises, epsom salt soak
+ESCALATE: YES agar diabetic ho (diabetic foot serious) ya fracture suspect ho

@@ -1,0 +1,12 @@
+flask
+flask-cors
+twilio
+groq
+requests
+python-dotenv
+pdfplumber
+opencv-python
+tensorflow
+numpy
+sentence-transformers
+faiss-cpu
