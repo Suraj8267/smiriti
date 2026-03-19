@@ -183,11 +183,11 @@ def handle_voice(media_url, sender):
 def check_and_clean(reply, sender):
     escalated = "ESCALATE:YES" in reply
     if escalated:
-        print(f"🚨 ESCALATION: {sender}")
+        print(f" ESCALATION: {sender}")
     reply = reply.replace("ESCALATE:YES", "").strip()
     reply = reply.replace("ESCALATE:NO", "").strip()
     if escalated:
-        reply += "\n\n🚨 *Yeh serious lag raha hai — turant doctor ya hospital jaao!*"
+        reply += "\n\n *Yeh serious lag raha hai — turant doctor ya hospital jaao!*"
     return reply
 
 
@@ -196,7 +196,7 @@ def check_and_clean(reply, sender):
 # ─────────────────────────────────────────
 @app.route("/")
 def home():
-    return "AarogyaBot Running ✅"
+    return "AarogyaBot Running "
 
 
 # ─────────────────────────────────────────
@@ -208,7 +208,7 @@ def whatsapp_reply():
     sender = request.form.get('From', '')
     num_media = int(request.form.get('NumMedia', 0))
 
-    print(f"📩 From {sender}: {incoming_msg}")
+    print(f" From {sender}: {incoming_msg}")
 
     reply_text = ""
 
@@ -252,7 +252,7 @@ def whatsapp_reply():
 
     response = MessagingResponse()
     response.message(reply_text)
-    print(f"📤 Reply: {reply_text[:100]}...")
+    print(f" Reply: {reply_text[:100]}...")
     return str(response)
 
 
