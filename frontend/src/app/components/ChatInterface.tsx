@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import { motion, AnimatePresence } from "motion/react";
 import {
   Send, Mic, Image as ImageIcon, LogOut, User,
-  Stethoscope, Loader2, MicOff, X, Bot,
+  Stethoscope, Loader2, MicOff, X, Bot, ChevronLeft, ChevronRight, Play, BookOpen,
 } from "lucide-react";
 import { Avatar, AvatarFallback } from "./ui/avatar";
 import { toast } from "sonner";
@@ -55,6 +55,7 @@ export function ChatInterface() {
   const [isLoading, setIsLoading] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -153,6 +154,58 @@ export function ChatInterface() {
   const handleLogout = () => { localStorage.removeItem("healthbot_user"); navigate("/"); };
 
   const quickReplies = ["I have a high fever", "मुझे सिर दर्द है", "How to reduce cough?", "पेट में दर्द हो रहा है"];
+
+  // Carousel content - placeholder data
+  const carouselItems = [
+    {
+      id: 1,
+      type: "video",
+      title: "Heart Health Tips",
+      description: "Learn essential tips for maintaining a healthy heart",
+      thumbnail: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=300&h=200&fit=crop",
+      duration: "5:30"
+    },
+    {
+      id: 2,
+      type: "blog",
+      title: "Diabetes Prevention Guide",
+      description: "Complete guide to preventing type 2 diabetes",
+      thumbnail: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=300&h=200&fit=crop",
+      readTime: "8 min read"
+    },
+    {
+      id: 3,
+      type: "video",
+      title: "Mental Health Awareness",
+      description: "Understanding and managing mental health",
+      thumbnail: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=200&fit=crop",
+      duration: "12:15"
+    },
+    {
+      id: 4,
+      type: "blog",
+      title: "Nutrition Basics",
+      description: "Essential nutrition tips for a healthy lifestyle",
+      thumbnail: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=300&h=200&fit=crop",
+      readTime: "6 min read"
+    },
+    {
+      id: 5,
+      type: "video",
+      title: "Exercise for Beginners",
+      description: "Simple exercises to start your fitness journey",
+      thumbnail: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop",
+      duration: "8:45"
+    }
+  ];
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % Math.max(1, carouselItems.length - 2));
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + Math.max(1, carouselItems.length - 2)) % Math.max(1, carouselItems.length - 2));
+  };
 
   return (
     <div className="h-screen flex flex-col text-white">
@@ -265,6 +318,86 @@ export function ChatInterface() {
             </motion.div>
           )}
           <div ref={messagesEndRef} />
+        </div>
+      </div>
+
+      {/* Health Content Carousel */}
+      <div className="border-t border-white/10 bg-black/20 backdrop-blur-md px-4 py-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-semibold text-white">Health Resources</h3>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={prevSlide}
+                className="p-2 rounded-lg bg-white/5 border border-white/10 hover:bg-white/10 text-gray-400 hover:text-white transition-all"
+              >
+                <ChevronLeft className="size-4" />
+              </button>
+              <button
+                onClick={nextSlide}
+                className="p-2 rounded-lg bg-white/5 border border-white/10 hover:bg-white/10 text-gray-400 hover:text-white transition-all"
+              >
+                <ChevronRight className="size-4" />
+              </button>
+            </div>
+          </div>
+          
+          <div className="relative overflow-hidden">
+            <div 
+              className="flex transition-transform duration-300 ease-in-out gap-4"
+              style={{ transform: `translateX(-${currentSlide * 33.333}%)` }}
+            >
+              {carouselItems.map((item) => (
+                <div key={item.id} className="flex-none w-1/3 min-w-0">
+                  <div className="group bg-black/40 backdrop-blur-sm border border-white/10 hover:border-blue-500/40 rounded-xl overflow-hidden transition-all duration-300 cursor-pointer hover:scale-[1.02]">
+                    <div className="relative">
+                      <img 
+                        src={item.thumbnail} 
+                        alt={item.title}
+                        className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                        {item.type === "video" ? (
+                          <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
+                            <Play className="size-4 text-white" />
+                          </div>
+                        ) : (
+                          <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
+                            <BookOpen className="size-4 text-white" />
+                          </div>
+                        )}
+                      </div>
+                      <div className="absolute top-2 left-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white font-medium capitalize">
+                        {item.type}
+                      </div>
+                      <div className="absolute bottom-2 right-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white">
+                        {item.type === "video" ? item.duration : item.readTime}
+                      </div>
+                    </div>
+                    <div className="p-4">
+                      <h4 className="font-semibold text-white mb-1 text-sm line-clamp-1">{item.title}</h4>
+                      <p className="text-xs text-gray-400 line-clamp-2">{item.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          {/* Dots indicator */}
+          <div className="flex justify-center mt-4 gap-2">
+            {Array.from({ length: Math.max(1, carouselItems.length - 2) }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentSlide(index)}
+                className={`w-2 h-2 rounded-full transition-all ${
+                  currentSlide === index 
+                    ? "bg-blue-500 w-6" 
+                    : "bg-white/30 hover:bg-white/50"
+                }`}
+              />
+            ))}
+          </div>
         </div>
       </div>
 
