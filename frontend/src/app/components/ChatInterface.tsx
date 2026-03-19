@@ -56,8 +56,10 @@ export function ChatInterface() {
   const [isRecording, setIsRecording] = useState(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isCarouselHovered, setIsCarouselHovered] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const carouselIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const username = localStorage.getItem("healthbot_user");
@@ -199,6 +201,25 @@ export function ChatInterface() {
     }
   ];
 
+  // Auto-slide effect
+  useEffect(() => {
+    if (!isCarouselHovered) {
+      carouselIntervalRef.current = setInterval(() => {
+        setCurrentSlide((prev) => (prev + 1) % Math.max(1, carouselItems.length - 2));
+      }, 3000); // Change every 3 seconds
+    } else {
+      if (carouselIntervalRef.current) {
+        clearInterval(carouselIntervalRef.current);
+      }
+    }
+
+    return () => {
+      if (carouselIntervalRef.current) {
+        clearInterval(carouselIntervalRef.current);
+      }
+    };
+  }, [isCarouselHovered, carouselItems.length]);
+
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % Math.max(1, carouselItems.length - 2));
   };
@@ -318,85 +339,74 @@ export function ChatInterface() {
             </motion.div>
           )}
           <div ref={messagesEndRef} />
-        </div>
-      </div>
-
-      {/* Health Content Carousel */}
-      <div className="border-t border-white/10 bg-black/20 backdrop-blur-md px-4 py-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-semibold text-white">Health Resources</h3>
-            <div className="flex items-center gap-2">
-              <button
-                onClick={prevSlide}
-                className="p-2 rounded-lg bg-white/5 border border-white/10 hover:bg-white/10 text-gray-400 hover:text-white transition-all"
-              >
-                <ChevronLeft className="size-4" />
-              </button>
-              <button
-                onClick={nextSlide}
-                className="p-2 rounded-lg bg-white/5 border border-white/10 hover:bg-white/10 text-gray-400 hover:text-white transition-all"
-              >
-                <ChevronRight className="size-4" />
-              </button>
-            </div>
-          </div>
           
-          <div className="relative overflow-hidden">
+          {/* Health Content Carousel - Right after chat messages */}
+          <div className="mt-8">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-lg font-semibold text-white">Health Resources</h3>
+              <div className="text-xs text-gray-500">Hover to pause • Auto-sliding</div>
+            </div>
+            
             <div 
-              className="flex transition-transform duration-300 ease-in-out gap-4"
-              style={{ transform: `translateX(-${currentSlide * 33.333}%)` }}
+              className="relative overflow-hidden"
+              onMouseEnter={() => setIsCarouselHovered(true)}
+              onMouseLeave={() => setIsCarouselHovered(false)}
             >
-              {carouselItems.map((item) => (
-                <div key={item.id} className="flex-none w-1/3 min-w-0">
-                  <div className="group bg-black/40 backdrop-blur-sm border border-white/10 hover:border-blue-500/40 rounded-xl overflow-hidden transition-all duration-300 cursor-pointer hover:scale-[1.02]">
-                    <div className="relative">
-                      <img 
-                        src={item.thumbnail} 
-                        alt={item.title}
-                        className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
-                        {item.type === "video" ? (
-                          <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
-                            <Play className="size-4 text-white" />
-                          </div>
-                        ) : (
-                          <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
-                            <BookOpen className="size-4 text-white" />
-                          </div>
-                        )}
+              <div 
+                className="flex transition-transform duration-500 ease-in-out gap-4"
+                style={{ transform: `translateX(-${currentSlide * 33.333}%)` }}
+              >
+                {carouselItems.map((item) => (
+                  <div key={item.id} className="flex-none w-1/3 min-w-0">
+                    <div className="group bg-black/40 backdrop-blur-sm border border-white/10 hover:border-blue-500/40 rounded-xl overflow-hidden transition-all duration-300 cursor-pointer hover:scale-[1.02] hover:shadow-xl hover:shadow-blue-500/10">
+                      <div className="relative">
+                        <img 
+                          src={item.thumbnail} 
+                          alt={item.title}
+                          className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                        <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                          {item.type === "video" ? (
+                            <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
+                              <Play className="size-4 text-white" />
+                            </div>
+                          ) : (
+                            <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:scale-110 transition-transform">
+                              <BookOpen className="size-4 text-white" />
+                            </div>
+                          )}
+                        </div>
+                        <div className="absolute top-2 left-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white font-medium capitalize">
+                          {item.type}
+                        </div>
+                        <div className="absolute bottom-2 right-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white">
+                          {item.type === "video" ? item.duration : item.readTime}
+                        </div>
                       </div>
-                      <div className="absolute top-2 left-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white font-medium capitalize">
-                        {item.type}
+                      <div className="p-4">
+                        <h4 className="font-semibold text-white mb-1 text-sm line-clamp-1">{item.title}</h4>
+                        <p className="text-xs text-gray-400 line-clamp-2">{item.description}</p>
                       </div>
-                      <div className="absolute bottom-2 right-2 px-2 py-1 bg-black/60 backdrop-blur-sm rounded text-xs text-white">
-                        {item.type === "video" ? item.duration : item.readTime}
-                      </div>
-                    </div>
-                    <div className="p-4">
-                      <h4 className="font-semibold text-white mb-1 text-sm line-clamp-1">{item.title}</h4>
-                      <p className="text-xs text-gray-400 line-clamp-2">{item.description}</p>
                     </div>
                   </div>
-                </div>
+                ))}
+              </div>
+            </div>
+            
+            {/* Dots indicator */}
+            <div className="flex justify-center mt-4 gap-2">
+              {Array.from({ length: Math.max(1, carouselItems.length - 2) }).map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentSlide(index)}
+                  className={`w-2 h-2 rounded-full transition-all ${
+                    currentSlide === index 
+                      ? "bg-blue-500 w-6" 
+                      : "bg-white/30 hover:bg-white/50"
+                  }`}
+                />
               ))}
             </div>
-          </div>
-          
-          {/* Dots indicator */}
-          <div className="flex justify-center mt-4 gap-2">
-            {Array.from({ length: Math.max(1, carouselItems.length - 2) }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentSlide(index)}
-                className={`w-2 h-2 rounded-full transition-all ${
-                  currentSlide === index 
-                    ? "bg-blue-500 w-6" 
-                    : "bg-white/30 hover:bg-white/50"
-                }`}
-              />
-            ))}
           </div>
         </div>
       </div>
